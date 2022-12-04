@@ -1,3 +1,4 @@
+<!-- markdownlint-disable  MD013 -->
 # sbom
 
 This repository contains the software bill of materials (SBOM) for some of my projects:
