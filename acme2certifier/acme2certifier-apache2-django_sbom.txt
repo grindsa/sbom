@@ -8,7 +8,7 @@ PyMySQL                  1.0.2                                    python
 PySocks                  1.7.1                                    python  
 PyYAML                   5.4.1                                    python  
 Werkzeug                 2.2.2                                    python  
-acme                     2.0.0                                    python  
+acme                     2.1.0                                    python  
 adduser                  3.118ubuntu5                             deb     
 apache2                  2.4.52-1ubuntu4.2                        deb     
 apache2-bin              2.4.52-1ubuntu4.2                        deb     
@@ -21,7 +21,7 @@ base-passwd              3.5.52build1                             deb
 bash                     5.1-6ubuntu1                             deb     
 bsdutils                 1:2.37.2-4ubuntu3                        deb     
 ca-certificates          20211016ubuntu0.22.04.1                  deb     
-certifi                  2022.9.24                                python  
+certifi                  2022.12.7                                python  
 certsrv                  2.1.1                                    python  
 cffi                     1.15.1                                   python  
 chardet                  5.1.0                                    python  
@@ -119,9 +119,9 @@ libpq5                   14.5-0ubuntu0.22.04.1                    deb
 libprocps8               2:3.3.17-6ubuntu2                        deb     
 libpsl5                  0.21.0-1.2build2                         deb     
 libpython3-stdlib        3.10.6-1~22.04                           deb     
-libpython3.10            3.10.6-1~22.04.1                         deb     
-libpython3.10-minimal    3.10.6-1~22.04.1                         deb     
-libpython3.10-stdlib     3.10.6-1~22.04.1                         deb     
+libpython3.10            3.10.6-1~22.04.2                         deb     
+libpython3.10-minimal    3.10.6-1~22.04.2                         deb     
+libpython3.10-stdlib     3.10.6-1~22.04.2                         deb     
 libreadline8             8.1.2-1                                  deb     
 librtmp1                 2.4+20151223.gitfa8646d.1-2build4        deb     
 libsasl2-2               2.1.27+dfsg2-3ubuntu1                    deb     
@@ -194,8 +194,8 @@ python3-sqlparse         0.4.2-1                                  deb
 python3-tz               2022.1-1                                 deb     
 python3-wheel            0.37.1-2                                 deb     
 python3-yaml             5.4.1-1ubuntu1                           deb     
-python3.10               3.10.6-1~22.04.1                         deb     
-python3.10-minimal       3.10.6-1~22.04.1                         deb     
+python3.10               3.10.6-1~22.04.2                         deb     
+python3.10-minimal       3.10.6-1~22.04.2                         deb     
 pytz                     2022.1                                   python  
 readline-common          8.1.2-1                                  deb     
 requests                 2.28.1                                   python  
