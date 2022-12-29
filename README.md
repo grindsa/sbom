@@ -1,5 +1,5 @@
 <!-- markdownlint-disable  MD013 -->
-# sbom
+# sbom subdirectory
 
 This repository contains the software bill of materials (SBOM) for some of my projects:
 
