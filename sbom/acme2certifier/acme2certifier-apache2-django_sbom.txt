@@ -200,6 +200,7 @@ pytz                     2022.1                                   python
 readline-common          8.1.2-1                                  deb     
 requests                 2.28.2                                   python  
 requests-ntlm            1.1.0                                    python  
+requests-pkcs12          1.15                                     python  
 sed                      4.8-1ubuntu2                             deb     
 sensible-utils           0.0.17                                   deb     
 setuptools               59.6.0                                   python  
