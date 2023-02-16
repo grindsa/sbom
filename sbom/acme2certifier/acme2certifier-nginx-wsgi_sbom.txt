@@ -1,11 +1,11 @@
 NAME                            VERSION                                  TYPE   
 Deprecated                      1.2.13                                   python  
-Flask                           2.2.2                                    python  
+Flask                           2.2.3                                    python  
 Jinja2                          3.1.2                                    python  
 MarkupSafe                      2.1.2                                    python  
 PySocks                         1.7.1                                    python  
-Werkzeug                        2.2.2                                    python  
-acme                            2.2.0                                    python  
+Werkzeug                        2.2.3                                    python  
+acme                            2.3.0                                    python  
 adduser                         3.118ubuntu5                             deb     
 apt                             2.4.8                                    deb     
 base-files                      12ubuntu4.2                              deb     
@@ -178,7 +178,6 @@ ncurses-bin                     6.3-2                                    deb
 nginx                           1.18.0-6ubuntu14.3                       deb     
 nginx-common                    1.18.0-6ubuntu14.3                       deb     
 nginx-core                      1.18.0-6ubuntu14.3                       deb     
-ntlm-auth                       1.5.0                                    python  
 openssl                         3.0.2-0ubuntu1.8                         deb     
 passwd                          1:4.8.1-2ubuntu2.1                       deb     
 perl-base                       5.34.0-3ubuntu1.1                        deb     
@@ -190,6 +189,7 @@ pyasn1                          0.4.8                                    python
 pyasn1-modules                  0.2.8                                    python  
 pycparser                       2.21                                     python  
 pycryptodomex                   3.17                                     python  
+pyspnego                        0.7.0                                    python  
 python                          3.10.6                                   binary  
 python-dateutil                 2.8.2                                    python  
 python3                         3.10.6-1~22.04                           deb     
@@ -205,7 +205,7 @@ python3.10-minimal              3.10.6-1~22.04.2                         deb
 pytz                            2022.7.1                                 python  
 readline-common                 8.1.2-1                                  deb     
 requests                        2.28.2                                   python  
-requests-ntlm                   1.1.0                                    python  
+requests-ntlm                   1.2.0                                    python  
 requests-pkcs12                 1.15                                     python  
 sed                             4.8-1ubuntu2                             deb     
 sensible-utils                  0.0.17                                   deb     
