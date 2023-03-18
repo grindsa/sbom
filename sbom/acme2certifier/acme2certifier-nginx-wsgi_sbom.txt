@@ -92,7 +92,7 @@ libk5crypto3                    1.19.2-2ubuntu0.1                        deb
 libkeyutils1                    1.6.1-2ubuntu3                           deb     
 libkrb5-3                       1.19.2-2ubuntu0.1                        deb     
 libkrb5support0                 1.19.2-2ubuntu0.1                        deb     
-libldap-2.5-0                   2.5.13+dfsg-0ubuntu0.22.04.1             deb     
+libldap-2.5-0                   2.5.14+dfsg-0ubuntu0.22.04.1             deb     
 liblz4-1                        1.9.3-2build2                            deb     
 liblzma5                        5.2.5-2ubuntu1                           deb     
 libmaxminddb0                   1.5.2-1build2                            deb     
