@@ -177,7 +177,7 @@ python3-setuptools       59.6.0-1.2ubuntu0.22.04.1                deb
 python3-wheel            0.37.1-2ubuntu0.22.04.1                  deb     
 python3.10               3.10.6-1~22.04.2ubuntu1                  deb     
 python3.10-minimal       3.10.6-1~22.04.2ubuntu1                  deb     
-pytz                     2022.7.1                                 python  
+pytz                     2023.3                                   python  
 readline-common          8.1.2-1                                  deb     
 requests                 2.28.2                                   python  
 requests-ntlm            1.2.0                                    python  
