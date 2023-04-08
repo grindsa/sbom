@@ -8,7 +8,7 @@ PyMySQL                  1.0.2                                    python
 PySocks                  1.7.1                                    python  
 PyYAML                   5.4.1                                    python  
 Werkzeug                 2.2.3                                    python  
-acme                     2.4.0                                    python  
+acme                     2.5.0                                    python  
 adduser                  3.118ubuntu5                             deb     
 apache2                  2.4.52-1ubuntu4.4                        deb     
 apache2-bin              2.4.52-1ubuntu4.4                        deb     

@@ -5,7 +5,7 @@ Jinja2                          3.1.2                                    python
 MarkupSafe                      2.1.2                                    python  
 PySocks                         1.7.1                                    python  
 Werkzeug                        2.2.3                                    python  
-acme                            2.4.0                                    python  
+acme                            2.5.0                                    python  
 adduser                         3.118ubuntu5                             deb     
 apt                             2.4.8                                    deb     
 base-files                      12ubuntu4.3                              deb     
