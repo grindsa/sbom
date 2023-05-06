@@ -1,13 +1,13 @@
 NAME                     VERSION                                  TYPE   
 Deprecated               1.2.13                                   python  
 Django                   3.2.12                                   python  
-Flask                    2.3.1                                    python  
+Flask                    2.3.2                                    python  
 Jinja2                   3.1.2                                    python  
 MarkupSafe               2.1.2                                    python  
 PyMySQL                  1.0.2                                    python  
 PySocks                  1.7.1                                    python  
 PyYAML                   5.4.1                                    python  
-Werkzeug                 2.3.2                                    python  
+Werkzeug                 2.3.3                                    python  
 acme                     2.5.0                                    python  
 adduser                  3.118ubuntu5                             deb     
 apache2                  2.4.52-1ubuntu4.5                        deb     
@@ -182,7 +182,7 @@ python-dateutil          2.8.2                                    python
 python3                  3.10.6-1~22.04                           deb     
 python3-asgiref          3.5.0-1                                  deb     
 python3-distutils        3.10.6-1~22.04                           deb     
-python3-django           2:3.2.12-2ubuntu1.5                      deb     
+python3-django           2:3.2.12-2ubuntu1.6                      deb     
 python3-lib2to3          3.10.6-1~22.04                           deb     
 python3-minimal          3.10.6-1~22.04                           deb     
 python3-mysqldb          1.4.6-1build1                            deb     
@@ -199,7 +199,7 @@ python3.10               3.10.6-1~22.04.2ubuntu1                  deb
 python3.10-minimal       3.10.6-1~22.04.2ubuntu1                  deb     
 pytz                     2022.1                                   python  
 readline-common          8.1.2-1                                  deb     
-requests                 2.29.0                                   python  
+requests                 2.30.0                                   python  
 requests-ntlm            1.2.0                                    python  
 requests-pkcs12          1.15                                     python  
 sed                      4.8-1ubuntu2                             deb     
