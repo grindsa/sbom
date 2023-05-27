@@ -21,7 +21,7 @@ base-passwd              3.5.52build1                             deb
 bash                     5.1-6ubuntu1                             deb     
 blinker                  1.6.2                                    python  
 bsdutils                 1:2.37.2-4ubuntu3                        deb     
-ca-certificates          20211016ubuntu0.22.04.1                  deb     
+ca-certificates          20230311ubuntu0.22.04.1                  deb     
 certifi                  2023.5.7                                 python  
 certsrv                  2.1.1                                    python  
 cffi                     1.15.1                                   python  
@@ -116,7 +116,7 @@ libpam0g                 1.4.0-11ubuntu2.3                        deb
 libpcre2-8-0             10.39-3ubuntu0.1                         deb     
 libpcre3                 2:8.39-13ubuntu0.22.04.1                 deb     
 libperl5.34              5.34.0-3ubuntu1.1                        deb     
-libpq5                   14.7-0ubuntu0.22.04.1                    deb     
+libpq5                   14.8-0ubuntu0.22.04.1                    deb     
 libprocps8               2:3.3.17-6ubuntu2                        deb     
 libpsl5                  0.21.0-1.2build2                         deb     
 libpython3-stdlib        3.10.6-1~22.04                           deb     
@@ -199,9 +199,9 @@ python3.10               3.10.6-1~22.04.2ubuntu1                  deb
 python3.10-minimal       3.10.6-1~22.04.2ubuntu1                  deb     
 pytz                     2022.1                                   python  
 readline-common          8.1.2-1                                  deb     
-requests                 2.30.0                                   python  
+requests                 2.31.0                                   python  
 requests-ntlm            1.2.0                                    python  
-requests-pkcs12          1.15                                     python  
+requests-pkcs12          1.16                                     python  
 sed                      4.8-1ubuntu2                             deb     
 sensible-utils           0.0.17                                   deb     
 setuptools               59.6.0                                   python  
@@ -211,7 +211,7 @@ sysvinit-utils           3.01-1ubuntu1                            deb
 tar                      1.34+dfsg-1ubuntu0.1.22.04.1             deb     
 tzdata                   2023c-0ubuntu0.22.04.1                   deb     
 ubuntu-keyring           2021.03.26                               deb     
-urllib3                  1.26.15                                  python  
+urllib3                  2.0.2                                    python  
 usrmerge                 25ubuntu2                                deb     
 util-linux               2.37.2-4ubuntu3                          deb     
 wheel                    0.37.1                                   python  
