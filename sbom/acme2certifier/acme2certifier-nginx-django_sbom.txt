@@ -7,7 +7,7 @@ MarkupSafe                      2.1.3                                    python
 PyMySQL                         1.0.2                                    python  
 PySocks                         1.7.1                                    python  
 PyYAML                          5.4.1                                    python  
-Werkzeug                        2.3.4                                    python  
+Werkzeug                        2.3.6                                    python  
 acme                            2.6.0                                    python  
 adduser                         3.118ubuntu5                             deb     
 apt                             2.4.9                                    deb     
@@ -132,9 +132,9 @@ libpq5                          14.8-0ubuntu0.22.04.1                    deb
 libprocps8                      2:3.3.17-6ubuntu2                        deb     
 libpsl5                         0.21.0-1.2build2                         deb     
 libpython3-stdlib               3.10.6-1~22.04                           deb     
-libpython3.10                   3.10.6-1~22.04.2ubuntu1                  deb     
-libpython3.10-minimal           3.10.6-1~22.04.2ubuntu1                  deb     
-libpython3.10-stdlib            3.10.6-1~22.04.2ubuntu1                  deb     
+libpython3.10                   3.10.6-1~22.04.2ubuntu1.1                deb     
+libpython3.10-minimal           3.10.6-1~22.04.2ubuntu1.1                deb     
+libpython3.10-stdlib            3.10.6-1~22.04.2ubuntu1.1                deb     
 libreadline8                    8.1.2-1                                  deb     
 librtmp1                        2.4+20151223.gitfa8646d.1-2build4        deb     
 libsasl2-2                      2.1.27+dfsg2-3ubuntu1.2                  deb     
@@ -148,7 +148,7 @@ libsmartcols1                   2.37.2-4ubuntu3                          deb
 libsodium23                     1.0.18-1build2                           deb     
 libsqlite3-0                    3.37.2-2ubuntu0.1                        deb     
 libss2                          1.46.5-2ubuntu1.1                        deb     
-libssh-4                        0.9.6-2build1                            deb     
+libssh-4                        0.9.6-2ubuntu0.22.04.1                   deb     
 libssl3                         3.0.2-0ubuntu1.9                         deb     
 libstdc++6                      12.1.0-2ubuntu1~22.04                    deb     
 libsystemd0                     249.11-0ubuntu3.9                        deb     
@@ -219,8 +219,8 @@ python3-sqlparse                0.4.2-1ubuntu0.22.04.1                   deb
 python3-tz                      2022.1-1ubuntu0.22.04.1                  deb     
 python3-wheel                   0.37.1-2ubuntu0.22.04.1                  deb     
 python3-yaml                    5.4.1-1ubuntu1                           deb     
-python3.10                      3.10.6-1~22.04.2ubuntu1                  deb     
-python3.10-minimal              3.10.6-1~22.04.2ubuntu1                  deb     
+python3.10                      3.10.6-1~22.04.2ubuntu1.1                deb     
+python3.10-minimal              3.10.6-1~22.04.2ubuntu1.1                deb     
 pytz                            2022.1                                   python  
 readline-common                 8.1.2-1                                  deb     
 requests                        2.31.0                                   python  
@@ -237,7 +237,7 @@ tar                             1.34+dfsg-1ubuntu0.1.22.04.1             deb
 tzdata                          2023c-0ubuntu0.22.04.2                   deb     
 ubuntu-keyring                  2021.03.26                               deb     
 ucf                             3.0043                                   deb     
-urllib3                         2.0.2                                    python  
+urllib3                         2.0.3                                    python  
 usrmerge                        25ubuntu2                                deb     
 util-linux                      2.37.2-4ubuntu3                          deb     
 uwsgi                           2.0.20-4                                 deb     
