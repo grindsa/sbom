@@ -206,7 +206,7 @@ python-dateutil                 2.8.2                                    python
 python3                         3.10.6-1~22.04                           deb     
 python3-asgiref                 3.5.0-1                                  deb     
 python3-distutils               3.10.6-1~22.04                           deb     
-python3-django                  2:3.2.12-2ubuntu1.6                      deb     
+python3-django                  2:3.2.12-2ubuntu1.7                      deb     
 python3-lib2to3                 3.10.6-1~22.04                           deb     
 python3-minimal                 3.10.6-1~22.04                           deb     
 python3-mysqldb                 1.4.6-1build1                            deb     
