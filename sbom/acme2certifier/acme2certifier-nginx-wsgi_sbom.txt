@@ -15,7 +15,7 @@ bash                            5.1-6ubuntu1                             deb
 blinker                         1.6.2                                    python  
 bsdutils                        1:2.37.2-4ubuntu3                        deb     
 ca-certificates                 20230311ubuntu0.22.04.1                  deb     
-certifi                         2023.5.7                                 python  
+certifi                         2023.7.22                                python  
 certsrv                         2.1.1                                    python  
 cffi                            1.15.1                                   python  
 chardet                         5.1.0                                    python  
