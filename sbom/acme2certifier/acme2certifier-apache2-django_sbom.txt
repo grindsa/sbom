@@ -25,7 +25,7 @@ bsdutils                 1:2.37.2-4ubuntu3                        deb
 ca-certificates          20230311ubuntu0.22.04.1                  deb     
 certifi                  2023.7.22                                python  
 certsrv                  2.1.1                                    python  
-cffi                     1.15.1                                   python  
+cffi                     1.16.0                                   python  
 charset-normalizer       3.2.0                                    python  
 click                    8.1.7                                    python  
 configparser             6.0.0                                    python  
@@ -177,7 +177,7 @@ pyasn1                   0.5.0                                    python
 pyasn1-modules           0.3.0                                    python  
 pycparser                2.21                                     python  
 pycryptodomex            3.19.0                                   python  
-pyspnego                 0.9.2                                    python  
+pyspnego                 0.10.1                                   python  
 python-dateutil          2.8.2                                    python  
 python3                  3.10.6-1~22.04                           deb     
 python3-asgiref          3.5.0-1                                  deb     
@@ -201,7 +201,7 @@ pytz                     2022.1                                   python
 readline-common          8.1.2-1                                  deb     
 requests                 2.31.0                                   python  
 requests-ntlm            1.2.0                                    python  
-requests-pkcs12          1.21                                     python  
+requests-pkcs12          1.22                                     python  
 sed                      4.8-1ubuntu2                             deb     
 sensible-utils           0.0.17                                   deb     
 setuptools               59.6.0                                   python  
