@@ -244,6 +244,6 @@ uwsgi                           2.0.20-4                                 deb
 uwsgi-core                      2.0.20-4                                 deb     
 uwsgi-plugin-python3            2.0.20-4                                 deb     
 wheel                           0.37.1                                   python  
-wrapt                           1.15.0                                   python  
+wrapt                           1.16.0                                   python  
 xmltodict                       0.13.0                                   python  
 zlib1g                          1:1.2.11.dfsg-2ubuntu9.2                 deb
