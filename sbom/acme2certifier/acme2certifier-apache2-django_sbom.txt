@@ -1,9 +1,9 @@
 NAME                     VERSION                                  TYPE   
 Deprecated               1.2.14                                   python  
 Django                   3.2.12                                   python  
-Flask                    3.0.0                                    python  
+Flask                    3.0.1                                    python  
 Jinja2                   3.1.3                                    python  
-MarkupSafe               2.1.3                                    python  
+MarkupSafe               2.1.4                                    python  
 PyMySQL                  1.0.2                                    python  
 PySocks                  1.7.1                                    python  
 PyYAML                   5.4.1                                    python  
@@ -209,7 +209,7 @@ six                      1.16.0                                   python
 sqlparse                 0.4.2                                    python  
 sysvinit-utils           3.01-1ubuntu1                            deb     
 tar                      1.34+dfsg-1ubuntu0.1.22.04.2             deb     
-tzdata                   2023c-0ubuntu0.22.04.2                   deb     
+tzdata                   2023d-0ubuntu0.22.04                     deb     
 ubuntu-keyring           2021.03.26                               deb     
 urllib3                  2.1.0                                    python  
 usrmerge                 25ubuntu2                                deb     
