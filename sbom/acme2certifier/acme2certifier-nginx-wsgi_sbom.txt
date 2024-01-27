@@ -22,7 +22,7 @@ charset-normalizer              3.3.2                                    python
 click                           8.1.7                                    python  
 configparser                    6.0.0                                    python  
 coreutils                       8.32-4.1ubuntu1                          deb     
-cryptography                    41.0.7                                   python  
+cryptography                    42.0.1                                   python  
 curl                            7.81.0-1ubuntu1.15                       deb     
 dash                            0.5.11+git20210903+057cd650a4ed-3build1  deb     
 debconf                         1.5.79ubuntu1                            deb     
@@ -60,8 +60,8 @@ libbpf0                         1:0.5.0-1ubuntu22.04.1                   deb
 libbrotli1                      1.0.9-2build6                            deb     
 libbsd0                         0.11.5-1                                 deb     
 libbz2-1.0                      1.0.8-5build1                            deb     
-libc-bin                        2.35-0ubuntu3.5                          deb     
-libc6                           2.35-0ubuntu3.5                          deb     
+libc-bin                        2.35-0ubuntu3.6                          deb     
+libc6                           2.35-0ubuntu3.6                          deb     
 libcap-ng0                      0.7.9-2.2build3                          deb     
 libcap2                         1:2.44-1ubuntu0.22.04.1                  deb     
 libcap2-bin                     1:2.44-1ubuntu0.22.04.1                  deb     
@@ -142,7 +142,7 @@ libsmartcols1                   2.37.2-4ubuntu3                          deb
 libsodium23                     1.0.18-1build2                           deb     
 libsqlite3-0                    3.37.2-2ubuntu0.3                        deb     
 libss2                          1.46.5-2ubuntu1.1                        deb     
-libssh-4                        0.9.6-2ubuntu0.22.04.2                   deb     
+libssh-4                        0.9.6-2ubuntu0.22.04.3                   deb     
 libssl3                         3.0.2-0ubuntu1.12                        deb     
 libstdc++6                      12.3.0-1ubuntu1~22.04                    deb     
 libsystemd0                     249.11-0ubuntu3.11                       deb     
@@ -180,12 +180,12 @@ ncurses-bin                     6.3-2ubuntu0.1                           deb
 nginx                           1.18.0-6ubuntu14.4                       deb     
 nginx-common                    1.18.0-6ubuntu14.4                       deb     
 nginx-core                      1.18.0-6ubuntu14.4                       deb     
-openssl                         3.0.2-0ubuntu1.12                        deb     
+openssl                         3.0.2-0ubuntu1.13                        deb     
 passwd                          1:4.8.1-2ubuntu2.1                       deb     
 perl-base                       5.34.0-3ubuntu1.3                        deb     
 pip                             22.0.2                                   python  
 procps                          2:3.3.17-6ubuntu2.1                      deb     
-pyOpenSSL                       23.3.0                                   python  
+pyOpenSSL                       24.0.0                                   python  
 pyRFC3339                       1.1                                      python  
 pyasn1                          0.5.1                                    python  
 pyasn1-modules                  0.3.0                                    python  
