@@ -1,1 +1,162 @@
-{"$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json", "bomFormat": "CycloneDX", "specVersion": "1.4", "serialNumber": "urn:uuid:38161123-a42d-4695-b26c-5f45d7d4ac86", "version": 1, "metadata": {"timestamp": "2023-12-10T07:19:45.351093+00:00", "tools": [{"vendor": "CycloneDX", "name": "cyclonedx-bom", "version": "3.11.7"}, {"vendor": "CycloneDX", "name": "cyclonedx-python-lib", "version": "3.1.5", "externalReferences": [{"url": "https://github.com/CycloneDX/cyclonedx-python-lib/actions", "type": "build-system"}, {"url": "https://pypi.org/project/cyclonedx-python-lib/", "type": "distribution"}, {"url": "https://cyclonedx.github.io/cyclonedx-python-lib/", "type": "documentation"}, {"url": "https://github.com/CycloneDX/cyclonedx-python-lib/issues", "type": "issue-tracker"}, {"url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/LICENSE", "type": "license"}, {"url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/CHANGELOG.md", "type": "release-notes"}, {"url": "https://github.com/CycloneDX/cyclonedx-python-lib", "type": "vcs"}, {"url": "https://cyclonedx.org", "type": "website"}]}]}, "components": [{"type": "library", "bom-ref": "adb233f0-be45-48e7-b4ba-0f80a1eb4b9a", "name": "MechanicalSoup", "version": "1.3.0", "purl": "pkg:pypi/mechanicalsoup@1.3.0"}, {"type": "library", "bom-ref": "1db0317d-6a36-4787-90a4-23ffc33c4b74", "name": "beautifulsoup4", "version": "4.12.2", "purl": "pkg:pypi/beautifulsoup4@4.12.2"}, {"type": "library", "bom-ref": "c2801bc6-2371-4662-905e-be84606478e7", "name": "certifi", "version": "2023.11.17", "purl": "pkg:pypi/certifi@2023.11.17"}, {"type": "library", "bom-ref": "5cb68108-3f52-41d5-9138-0b002652a680", "name": "charset-normalizer", "version": "3.3.2", "purl": "pkg:pypi/charset-normalizer@3.3.2"}, {"type": "library", "bom-ref": "eb80391f-b0b1-41c5-b7dc-bf93d22a8cdc", "name": "click", "version": "8.1.7", "purl": "pkg:pypi/click@8.1.7"}, {"type": "library", "bom-ref": "fe98b117-2ef1-4b7b-8749-edd88521a679", "name": "idna", "version": "3.6", "purl": "pkg:pypi/idna@3.6"}, {"type": "library", "bom-ref": "bf8d27f8-6e3b-4952-a4e7-a5fc371cea86", "name": "lxml", "version": "4.9.3", "purl": "pkg:pypi/lxml@4.9.3"}, {"type": "library", "bom-ref": "1cc33f33-428d-495b-8a1e-73c9ddedd2ce", "name": "requests", "version": "2.31.0", "purl": "pkg:pypi/requests@2.31.0"}, {"type": "library", "bom-ref": "82a4a264-4558-4f3c-bf21-971bc8a7754a", "name": "soupsieve", "version": "2.5", "purl": "pkg:pypi/soupsieve@2.5"}, {"type": "library", "bom-ref": "cd4d98f5-e31b-4615-b9e9-9fec644fae55", "name": "tabulate", "version": "0.9.0", "purl": "pkg:pypi/tabulate@0.9.0"}, {"type": "library", "bom-ref": "e76adbb5-bdb4-44c1-8f64-6dc6bb18c62a", "name": "urllib3", "version": "2.1.0", "purl": "pkg:pypi/urllib3@2.1.0"}], "dependencies": [{"ref": "adb233f0-be45-48e7-b4ba-0f80a1eb4b9a", "dependsOn": []}, {"ref": "1db0317d-6a36-4787-90a4-23ffc33c4b74", "dependsOn": []}, {"ref": "c2801bc6-2371-4662-905e-be84606478e7", "dependsOn": []}, {"ref": "5cb68108-3f52-41d5-9138-0b002652a680", "dependsOn": []}, {"ref": "eb80391f-b0b1-41c5-b7dc-bf93d22a8cdc", "dependsOn": []}, {"ref": "fe98b117-2ef1-4b7b-8749-edd88521a679", "dependsOn": []}, {"ref": "bf8d27f8-6e3b-4952-a4e7-a5fc371cea86", "dependsOn": []}, {"ref": "1cc33f33-428d-495b-8a1e-73c9ddedd2ce", "dependsOn": []}, {"ref": "82a4a264-4558-4f3c-bf21-971bc8a7754a", "dependsOn": []}, {"ref": "cd4d98f5-e31b-4615-b9e9-9fec644fae55", "dependsOn": []}, {"ref": "e76adbb5-bdb4-44c1-8f64-6dc6bb18c62a", "dependsOn": []}]}
+{
+  "components": [
+    {
+      "bom-ref": "requirements-L3",
+      "description": "requirements line 3: click",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "/tmp/requirements_freeze.txt/click/"
+        }
+      ],
+      "name": "click",
+      "purl": "pkg:pypi/click",
+      "type": "library"
+    },
+    {
+      "bom-ref": "requirements-L1",
+      "description": "requirements line 1: mechanicalsoup",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "/tmp/requirements_freeze.txt/mechanicalsoup/"
+        }
+      ],
+      "name": "mechanicalsoup",
+      "purl": "pkg:pypi/mechanicalsoup",
+      "type": "library"
+    },
+    {
+      "bom-ref": "requirements-L4",
+      "description": "requirements line 4: requests",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "/tmp/requirements_freeze.txt/requests/"
+        }
+      ],
+      "name": "requests",
+      "purl": "pkg:pypi/requests",
+      "type": "library"
+    },
+    {
+      "bom-ref": "requirements-L2",
+      "description": "requirements line 2: tabulate",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "/tmp/requirements_freeze.txt/tabulate/"
+        }
+      ],
+      "name": "tabulate",
+      "purl": "pkg:pypi/tabulate",
+      "type": "library"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "requirements-L1"
+    },
+    {
+      "ref": "requirements-L2"
+    },
+    {
+      "ref": "requirements-L3"
+    },
+    {
+      "ref": "requirements-L4"
+    }
+  ],
+  "metadata": {
+    "timestamp": "2024-02-12T06:39:28.584761+00:00",
+    "tools": [
+      {
+        "externalReferences": [
+          {
+            "type": "build-system",
+            "url": "https://github.com/CycloneDX/cyclonedx-python/actions"
+          },
+          {
+            "type": "distribution",
+            "url": "https://pypi.org/project/cyclonedx-bom/"
+          },
+          {
+            "type": "documentation",
+            "url": "https://cyclonedx-bom-tool.readthedocs.io/"
+          },
+          {
+            "type": "issue-tracker",
+            "url": "https://github.com/CycloneDX/cyclonedx-python/issues"
+          },
+          {
+            "type": "license",
+            "url": "https://github.com/CycloneDX/cyclonedx-python/blob/main/LICENSE"
+          },
+          {
+            "type": "release-notes",
+            "url": "https://github.com/CycloneDX/cyclonedx-python/blob/main/CHANGELOG.md"
+          },
+          {
+            "type": "vcs",
+            "url": "https://github.com/CycloneDX/cyclonedx-python/"
+          },
+          {
+            "type": "website",
+            "url": "https://github.com/CycloneDX/cyclonedx-python/#readme"
+          }
+        ],
+        "name": "cyclonedx-bom",
+        "vendor": "CycloneDX",
+        "version": "4.1.1"
+      },
+      {
+        "externalReferences": [
+          {
+            "type": "build-system",
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/actions"
+          },
+          {
+            "type": "distribution",
+            "url": "https://pypi.org/project/cyclonedx-python-lib/"
+          },
+          {
+            "type": "documentation",
+            "url": "https://cyclonedx-python-library.readthedocs.io/"
+          },
+          {
+            "type": "issue-tracker",
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/issues"
+          },
+          {
+            "type": "license",
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/LICENSE"
+          },
+          {
+            "type": "release-notes",
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/CHANGELOG.md"
+          },
+          {
+            "type": "vcs",
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib"
+          },
+          {
+            "type": "website",
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/#readme"
+          }
+        ],
+        "name": "cyclonedx-python-lib",
+        "vendor": "CycloneDX",
+        "version": "6.4.1"
+      }
+    ]
+  },
+  "serialNumber": "urn:uuid:1e360f91-42ed-4a8d-bbd6-c23377588dce",
+  "version": 1,
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5"
+}
