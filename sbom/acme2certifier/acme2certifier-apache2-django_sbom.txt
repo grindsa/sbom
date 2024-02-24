@@ -28,8 +28,8 @@ cffi                     1.16.0                                   python
 charset-normalizer       3.3.2                                    python  
 click                    8.1.7                                    python  
 configparser             6.0.0                                    python  
-coreutils                8.32-4.1ubuntu1                          deb     
-cryptography             42.0.3                                   python  
+coreutils                8.32-4.1ubuntu1.1                        deb     
+cryptography             42.0.5                                   python  
 curl                     7.81.0-1ubuntu1.15                       deb     
 dash                     0.5.11+git20210903+057cd650a4ed-3build1  deb     
 debconf                  1.5.79ubuntu1                            deb     
@@ -41,7 +41,7 @@ dpkg                     1.21.1ubuntu2.2                          deb
 dsinternals              1.2.4                                    python  
 e2fsprogs                1.46.5-2ubuntu1.1                        deb     
 findutils                4.8.0-1ubuntu3                           deb     
-future                   0.18.3                                   python  
+future                   1.0.0                                    python  
 gcc-12-base              12.3.0-1ubuntu1~22.04                    deb     
 gpgv                     2.2.27-3ubuntu2.1                        deb     
 grep                     3.7-1build1                              deb     
@@ -136,7 +136,7 @@ libsmartcols1            2.37.2-4ubuntu3                          deb
 libsqlite3-0             3.37.2-2ubuntu0.3                        deb     
 libss2                   1.46.5-2ubuntu1.1                        deb     
 libssh-4                 0.9.6-2ubuntu0.22.04.3                   deb     
-libssl3                  3.0.2-0ubuntu1.13                        deb     
+libssl3                  3.0.2-0ubuntu1.14                        deb     
 libstdc++6               12.3.0-1ubuntu1~22.04                    deb     
 libsystemd0              249.11-0ubuntu3.12                       deb     
 libtasn1-6               4.18.0-4build1                           deb     
