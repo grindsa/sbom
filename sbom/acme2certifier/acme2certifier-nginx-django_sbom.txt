@@ -23,7 +23,7 @@ certsrv                         2.1.1                                    python
 cffi                            1.16.0                                   python  
 charset-normalizer              3.3.2                                    python  
 click                           8.1.7                                    python  
-configparser                    6.0.0                                    python  
+configparser                    6.0.1                                    python  
 coreutils                       8.32-4.1ubuntu1.1                        deb     
 cryptography                    42.0.5                                   python  
 curl                            7.81.0-1ubuntu1.15                       deb     
