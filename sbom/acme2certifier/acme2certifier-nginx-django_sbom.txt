@@ -51,7 +51,7 @@ init-system-helpers             1.62                                     deb
 iproute2                        5.15.0-1ubuntu2                          deb       
 itsdangerous                    2.1.2                                    python    
 josepy                          1.14.0                                   python    
-jwcrypto                        1.5.4                                    python    
+jwcrypto                        1.5.6                                    python    
 ldap3                           2.9.1                                    python    
 ldapdomaindump                  0.9.4                                    python    
 libacl1                         2.3.1-1                                  deb       
@@ -205,7 +205,7 @@ python-dateutil                 2.9.0.post0                              python
 python3                         3.10.6-1~22.04                           deb       
 python3-asgiref                 3.5.0-1                                  deb       
 python3-distutils               3.10.8-1~22.04                           deb       
-python3-django                  2:3.2.12-2ubuntu1.10                     deb       
+python3-django                  2:3.2.12-2ubuntu1.11                     deb       
 python3-lib2to3                 3.10.8-1~22.04                           deb       
 python3-minimal                 3.10.6-1~22.04                           deb       
 python3-mysqldb                 1.4.6-1build1                            deb       

@@ -47,7 +47,7 @@ impacket                 0.11.0                                   python
 init-system-helpers      1.62                                     deb       
 itsdangerous             2.1.2                                    python    
 josepy                   1.14.0                                   python    
-jwcrypto                 1.5.4                                    python    
+jwcrypto                 1.5.6                                    python    
 ldap3                    2.9.1                                    python    
 ldapdomaindump           0.9.4                                    python    
 libacl1                  2.3.1-1                                  deb       
