@@ -71,7 +71,7 @@ libdb5.3                        5.3.28+dfsg1-0.8ubuntu3                  deb
 libdebconfclient0               0.261ubuntu1                             deb       
 libdeflate0                     1.10-2                                   deb       
 libelf1                         0.186-1build1                            deb       
-libexpat1                       2.4.7-1ubuntu0.2                         deb       
+libexpat1                       2.4.7-1ubuntu0.3                         deb       
 libext2fs2                      1.46.5-2ubuntu1.1                        deb       
 libffi8                         3.4.2-4                                  deb       
 libfontconfig1                  2.13.1-4.2ubuntu5                        deb       
@@ -93,7 +93,7 @@ libk5crypto3                    1.19.2-2ubuntu0.3                        deb
 libkeyutils1                    1.6.1-2ubuntu3                           deb       
 libkrb5-3                       1.19.2-2ubuntu0.3                        deb       
 libkrb5support0                 1.19.2-2ubuntu0.3                        deb       
-libldap-2.5-0                   2.5.16+dfsg-0ubuntu0.22.04.2             deb       
+libldap-2.5-0                   2.5.17+dfsg-0ubuntu0.22.04.1             deb       
 liblz4-1                        1.9.3-2build2                            deb       
 liblzma5                        5.2.5-2ubuntu1                           deb       
 libmaxminddb0                   1.5.2-1build2                            deb       
