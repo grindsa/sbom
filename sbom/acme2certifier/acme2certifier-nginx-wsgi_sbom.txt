@@ -22,7 +22,7 @@ click                           8.1.7                                    python
 configparser                    6.0.1                                    python    
 coreutils                       8.32-4.1ubuntu1.1                        deb       
 cryptography                    42.0.5                                   python    
-curl                            7.81.0-1ubuntu1.15                       deb       
+curl                            7.81.0-1ubuntu1.16                       deb       
 dash                            0.5.11+git20210903+057cd650a4ed-3build1  deb       
 debconf                         1.5.79ubuntu1                            deb       
 debianutils                     5.5-1ubuntu2                             deb       
@@ -66,7 +66,7 @@ libcap2                         1:2.44-1ubuntu0.22.04.1                  deb
 libcap2-bin                     1:2.44-1ubuntu0.22.04.1                  deb       
 libcom-err2                     1.46.5-2ubuntu1.1                        deb       
 libcrypt1                       1:4.4.27-1                               deb       
-libcurl4                        7.81.0-1ubuntu1.15                       deb       
+libcurl4                        7.81.0-1ubuntu1.16                       deb       
 libdb5.3                        5.3.28+dfsg1-0.8ubuntu3                  deb       
 libdebconfclient0               0.261ubuntu1                             deb       
 libdeflate0                     1.10-2                                   deb       
@@ -186,8 +186,8 @@ pip                             22.0.2                                   python
 procps                          2:3.3.17-6ubuntu2.1                      deb       
 pyOpenSSL                       24.1.0                                   python    
 pyRFC3339                       1.1                                      python    
-pyasn1                          0.5.1                                    python    
-pyasn1-modules                  0.3.0                                    python    
+pyasn1                          0.6.0                                    python    
+pyasn1_modules                  0.4.0                                    python    
 pycparser                       2.21                                     python    
 pycryptodomex                   3.20.0                                   python    
 pyspnego                        0.10.2                                   python    
