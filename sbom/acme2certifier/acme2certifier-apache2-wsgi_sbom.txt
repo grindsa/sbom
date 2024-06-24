@@ -190,7 +190,7 @@ tar                      1.34+dfsg-1ubuntu0.1.22.04.2             deb
 typing_extensions        4.12.2                                   python    
 tzdata                   2024a-0ubuntu0.22.04                     deb       
 ubuntu-keyring           2021.03.26                               deb       
-urllib3                  2.2.1                                    python    
+urllib3                  2.2.2                                    python    
 usrmerge                 25ubuntu2                                deb       
 util-linux               2.37.2-4ubuntu3.4                        deb       
 wheel                    0.37.1                                   python    
