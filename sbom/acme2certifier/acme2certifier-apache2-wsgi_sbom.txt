@@ -6,10 +6,10 @@ PySocks                  1.7.1                                    python
 Werkzeug                 3.0.3                                    python    
 acme                     2.11.0                                   python    
 adduser                  3.118ubuntu5                             deb       
-apache2                  2.4.52-1ubuntu4.11                       deb       
-apache2-bin              2.4.52-1ubuntu4.11                       deb       
-apache2-data             2.4.52-1ubuntu4.11                       deb       
-apache2-utils            2.4.52-1ubuntu4.11                       deb       
+apache2                  2.4.52-1ubuntu4.12                       deb       
+apache2-bin              2.4.52-1ubuntu4.12                       deb       
+apache2-data             2.4.52-1ubuntu4.12                       deb       
+apache2-utils            2.4.52-1ubuntu4.12                       deb       
 apt                      2.4.12                                   deb       
 base-files               12ubuntu4.6                              deb       
 base-passwd              3.5.52build1                             deb       
