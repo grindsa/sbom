@@ -91,7 +91,7 @@ libicu70                 70.1-2                                   deb
 libidn2-0                2.3.2-2build1                            deb       
 libjansson4              2.13.1-1.1build3                         deb       
 libjson-c5               0.15-3~ubuntu1.22.04.2                   deb       
-libk5crypto3             1.19.2-2ubuntu0.3                        deb       
+libk5crypto3             1.19.2-2ubuntu0.4                        deb       
 libkadm5clnt-mit12       1.19.2-2ubuntu0.4                        deb       
 libkadm5srv-mit12        1.19.2-2ubuntu0.4                        deb       
 libkdb5-10               1.19.2-2ubuntu0.4                        deb       
@@ -138,7 +138,7 @@ libsmartcols1            2.37.2-4ubuntu3.4                        deb
 libsqlite3-0             3.37.2-2ubuntu0.3                        deb       
 libss2                   1.46.5-2ubuntu1.1                        deb       
 libssh-4                 0.9.6-2ubuntu0.22.04.3                   deb       
-libssl3                  3.0.2-0ubuntu1.16                        deb       
+libssl3                  3.0.2-0ubuntu1.17                        deb       
 libstdc++6               12.3.0-1ubuntu1~22.04                    deb       
 libsystemd0              249.11-0ubuntu3.12                       deb       
 libtasn1-6               4.18.0-4build1                           deb       
