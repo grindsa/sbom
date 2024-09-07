@@ -16,12 +16,12 @@ bsdutils                 1:2.37.2-4ubuntu3.4                      deb
 ca-certificates          20230311ubuntu0.22.04.1                  deb       
 certifi                  2024.8.30                                python    
 certsrv                  2.1.1                                    python    
-cffi                     1.17.0                                   python    
+cffi                     1.17.1                                   python    
 charset-normalizer       3.3.2                                    python    
 click                    8.1.7                                    python    
 configparser             7.1.0                                    python    
 coreutils                8.32-4.1ubuntu1.2                        deb       
-cryptography             43.0.0                                   python    
+cryptography             43.0.1                                   python    
 curl                     7.81.0-1ubuntu1.17                       deb       
 dash                     0.5.11+git20210903+057cd650a4ed-3build1  deb       
 debconf                  1.5.79ubuntu1                            deb       
@@ -163,7 +163,7 @@ mime-support             3.66                                     deb
 mount                    2.37.2-4ubuntu3.4                        deb       
 ncurses-base             6.3-2ubuntu0.1                           deb       
 ncurses-bin              6.3-2ubuntu0.1                           deb       
-openssl                  3.0.2-0ubuntu1.17                        deb       
+openssl                  3.0.2-0ubuntu1.18                        deb       
 passwd                   1:4.8.1-2ubuntu2.2                       deb       
 perl                     5.34.0-3ubuntu1.3                        deb       
 perl-base                5.34.0-3ubuntu1.3                        deb       
