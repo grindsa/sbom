@@ -41,7 +41,7 @@ grep                     3.7-1build1                              deb
 gssapi                   1.6.12                                   python    
 gzip                     1.10-4ubuntu4.1                          deb       
 hostname                 3.23ubuntu2                              deb       
-idna                     3.8                                      python    
+idna                     3.9                                      python    
 impacket                 0.11.0                                   python    
 init-system-helpers      1.62                                     deb       
 itsdangerous             2.2.0                                    python    
@@ -170,8 +170,8 @@ perl-base                5.34.0-3ubuntu1.3                        deb
 perl-modules-5.34        5.34.0-3ubuntu1.3                        deb       
 pip                      22.0.2                                   python    
 procps                   2:3.3.17-6ubuntu2.1                      deb       
-pyasn1                   0.6.0                                    python    
-pyasn1-modules           0.4.0                                    python    
+pyasn1                   0.6.1                                    python    
+pyasn1-modules           0.4.1                                    python    
 pycparser                2.22                                     python    
 pycryptodomex            3.20.0                                   python    
 pyopenssl                24.2.1                                   python    
@@ -186,12 +186,12 @@ python3-gssapi           1.6.12-1ubuntu0.1                        deb
 python3-lib2to3          3.10.8-1~22.04                           deb       
 python3-minimal          3.10.6-1~22.04.1                         deb       
 python3-pip              22.0.2+dfsg-1ubuntu0.4                   deb       
-python3-pkg-resources    59.6.0-1.2ubuntu0.22.04.1                deb       
-python3-setuptools       59.6.0-1.2ubuntu0.22.04.1                deb       
+python3-pkg-resources    59.6.0-1.2ubuntu0.22.04.2                deb       
+python3-setuptools       59.6.0-1.2ubuntu0.22.04.2                deb       
 python3-wheel            0.37.1-2ubuntu0.22.04.1                  deb       
 python3.10               3.10.12-1~22.04.5                        deb       
 python3.10-minimal       3.10.12-1~22.04.5                        deb       
-pytz                     2024.1                                   python    
+pytz                     2024.2                                   python    
 readline-common          8.1.2-1                                  deb       
 requests                 2.32.3                                   python    
 requests-gssapi          1.3.0                                    python    
@@ -206,7 +206,7 @@ tar                      1.34+dfsg-1ubuntu0.1.22.04.2             deb
 typing-extensions        4.12.2                                   python    
 tzdata                   2024a-0ubuntu0.22.04.1                   deb       
 ubuntu-keyring           2021.03.26                               deb       
-urllib3                  2.2.2                                    python    
+urllib3                  2.2.3                                    python    
 usrmerge                 25ubuntu2                                deb       
 util-linux               2.37.2-4ubuntu3.4                        deb       
 werkzeug                 3.0.4                                    python    
