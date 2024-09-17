@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.5" serialNumber="urn:uuid:f910a36d-85f4-427b-81ae-7dff104982a1" version="1">
+<bom xmlns="http://cyclonedx.org/schema/bom/1.5" serialNumber="urn:uuid:7a2c0570-304a-4174-8ca1-63f0ebab6545" version="1">
   <metadata>
-    <timestamp>2024-02-12T06:39:28.372103+00:00</timestamp>
+    <timestamp>2024-09-17T17:52:11.986454+00:00</timestamp>
     <tools>
       <tool>
         <vendor>CycloneDX</vendor>
         <name>cyclonedx-bom</name>
-        <version>4.1.1</version>
+        <version>4.5.0</version>
         <externalReferences>
           <reference type="build-system">
             <url>https://github.com/CycloneDX/cyclonedx-python/actions</url>
@@ -37,7 +37,7 @@
       <tool>
         <vendor>CycloneDX</vendor>
         <name>cyclonedx-python-lib</name>
-        <version>6.4.1</version>
+        <version>7.6.0</version>
         <externalReferences>
           <reference type="build-system">
             <url>https://github.com/CycloneDX/cyclonedx-python-lib/actions</url>
@@ -90,6 +90,17 @@
         </reference>
       </externalReferences>
     </component>
+    <component type="library" bom-ref="requirements-L5">
+      <name>pillow</name>
+      <description>requirements line 5: pillow</description>
+      <purl>pkg:pypi/pillow</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>/tmp/requirements_freeze.txt/pillow/</url>
+          <comment>implicit dist url</comment>
+        </reference>
+      </externalReferences>
+    </component>
     <component type="library" bom-ref="requirements-L4">
       <name>requests</name>
       <description>requirements line 4: requests</description>
@@ -118,5 +129,6 @@
     <dependency ref="requirements-L2"/>
     <dependency ref="requirements-L3"/>
     <dependency ref="requirements-L4"/>
+    <dependency ref="requirements-L5"/>
   </dependencies>
 </bom>
