@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.5" serialNumber="urn:uuid:6bcd1ae8-041c-4703-abac-0fb2d7c8b6d0" version="1">
+<bom xmlns="http://cyclonedx.org/schema/bom/1.5" serialNumber="urn:uuid:e60fbbf0-c2f8-4671-9227-707f76e6c1d7" version="1">
   <metadata>
-    <timestamp>2024-09-17T17:54:29.760564+00:00</timestamp>
+    <timestamp>2024-10-03T17:38:32.170965+00:00</timestamp>
     <tools>
       <tool>
         <vendor>CycloneDX</vendor>
         <name>cyclonedx-bom</name>
-        <version>4.5.0</version>
+        <version>4.6.1</version>
         <externalReferences>
           <reference type="build-system">
             <url>https://github.com/CycloneDX/cyclonedx-python/actions</url>
@@ -37,7 +37,7 @@
       <tool>
         <vendor>CycloneDX</vendor>
         <name>cyclonedx-python-lib</name>
-        <version>7.6.0</version>
+        <version>7.6.1</version>
         <externalReferences>
           <reference type="build-system">
             <url>https://github.com/CycloneDX/cyclonedx-python-lib/actions</url>
