@@ -9,7 +9,7 @@ bind9-host                      1:9.18.28-0ubuntu0.22.04.1               deb
 bind9-libs                      1:9.18.28-0ubuntu0.22.04.1               deb       
 blinker                         1.8.2                                    python    
 bsdutils                        1:2.37.2-4ubuntu3.4                      deb       
-ca-certificates                 20230311ubuntu0.22.04.1                  deb       
+ca-certificates                 20240203~22.04.1                         deb       
 certifi                         2024.8.30                                python    
 certsrv                         2.1.1                                    python    
 cffi                            1.17.1                                   python    
@@ -196,7 +196,7 @@ procps                          2:3.3.17-6ubuntu2.1                      deb
 pyasn1                          0.6.1                                    python    
 pyasn1-modules                  0.4.1                                    python    
 pycparser                       2.22                                     python    
-pycryptodomex                   3.20.0                                   python    
+pycryptodomex                   3.21.0                                   python    
 pyopenssl                       24.0.0                                   python    
 pyrfc3339                       1.1                                      python    
 pysocks                         1.7.1                                    python    
