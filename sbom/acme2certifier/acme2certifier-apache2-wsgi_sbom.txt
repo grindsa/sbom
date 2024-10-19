@@ -155,7 +155,7 @@ login                    1:4.8.1-2ubuntu2.2                       deb
 logsave                  1.46.5-2ubuntu1.2                        deb       
 lsb-base                 11.1.0ubuntu4                            deb       
 mailcap                  3.70+nmu1ubuntu1                         deb       
-markupsafe               3.0.1                                    python    
+markupsafe               3.0.2                                    python    
 mawk                     1.3.4.20200120-3                         deb       
 media-types              7.0.0                                    deb       
 mime-support             3.66                                     deb       
@@ -210,5 +210,5 @@ usrmerge                 25ubuntu2                                deb
 util-linux               2.37.2-4ubuntu3.4                        deb       
 werkzeug                 3.0.4                                    python    
 wheel                    0.37.1                                   python    
-xmltodict                0.14.1                                   python    
+xmltodict                0.14.2                                   python    
 zlib1g                   1:1.2.11.dfsg-2ubuntu9.2                 deb
