@@ -208,7 +208,7 @@ ubuntu-keyring           2021.03.26                               deb
 urllib3                  2.2.3                                    python    
 usrmerge                 25ubuntu2                                deb       
 util-linux               2.37.2-4ubuntu3.4                        deb       
-werkzeug                 3.0.4                                    python    
+werkzeug                 3.0.6                                    python    
 wheel                    0.37.1                                   python    
 xmltodict                0.14.2                                   python    
 zlib1g                   1:1.2.11.dfsg-2ubuntu9.2                 deb
