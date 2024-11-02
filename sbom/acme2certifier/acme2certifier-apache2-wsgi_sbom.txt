@@ -184,7 +184,7 @@ python3-distutils        3.10.8-1~22.04                           deb
 python3-gssapi           1.6.12-1ubuntu0.1                        deb       
 python3-lib2to3          3.10.8-1~22.04                           deb       
 python3-minimal          3.10.6-1~22.04.1                         deb       
-python3-pip              22.0.2+dfsg-1ubuntu0.4                   deb       
+python3-pip              22.0.2+dfsg-1ubuntu0.5                   deb       
 python3-pkg-resources    59.6.0-1.2ubuntu0.22.04.2                deb       
 python3-setuptools       59.6.0-1.2ubuntu0.22.04.2                deb       
 python3-wheel            0.37.1-2ubuntu0.22.04.1                  deb       
@@ -208,7 +208,7 @@ ubuntu-keyring           2021.03.26                               deb
 urllib3                  2.2.3                                    python    
 usrmerge                 25ubuntu2                                deb       
 util-linux               2.37.2-4ubuntu3.4                        deb       
-werkzeug                 3.0.6                                    python    
+werkzeug                 3.1.1                                    python    
 wheel                    0.37.1                                   python    
 xmltodict                0.14.2                                   python    
 zlib1g                   1:1.2.11.dfsg-2ubuntu9.2                 deb
