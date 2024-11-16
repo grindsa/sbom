@@ -1,5 +1,5 @@
 NAME                     VERSION                                  TYPE     
-acme                     3.0.0                                    python    
+acme                     3.0.1                                    python    
 adduser                  3.118ubuntu5                             deb       
 apache2                  2.4.52-1ubuntu4.12                       deb       
 apache2-bin              2.4.52-1ubuntu4.12                       deb       
@@ -32,7 +32,7 @@ dnspython                2.7.0                                    python
 dpkg                     1.21.1ubuntu2.3                          deb       
 e2fsprogs                1.46.5-2ubuntu1.2                        deb       
 findutils                4.8.0-1ubuntu3                           deb       
-flask                    3.0.3                                    python    
+flask                    3.1.0                                    python    
 future                   1.0.0                                    python    
 gcc-12-base              12.3.0-1ubuntu1~22.04                    deb       
 gpgv                     2.2.27-3ubuntu2.1                        deb       
@@ -176,7 +176,7 @@ pycryptodomex            3.21.0                                   python
 pyopenssl                24.0.0                                   python    
 pyrfc3339                2.0.1                                    python    
 pysocks                  1.7.1                                    python    
-pyspnego                 0.11.1                                   python    
+pyspnego                 0.11.2                                   python    
 python-dateutil          2.9.0.post0                              python    
 python3                  3.10.6-1~22.04.1                         deb       
 python3-decorator        4.4.2-0ubuntu1                           deb       
