@@ -582,7 +582,7 @@
       ],
       "name": "dkb_robo",
       "type": "library",
-      "version": "0.28"
+      "version": "0.28.1"
     },
     "properties": [
       {
