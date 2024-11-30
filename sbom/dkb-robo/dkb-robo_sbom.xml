@@ -1,134 +1,513 @@
 <?xml version="1.0" ?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.5" serialNumber="urn:uuid:6a04fd94-82cf-4a41-b891-7f692fea83b7" version="1">
+<bom xmlns="http://cyclonedx.org/schema/bom/1.5" version="1">
   <metadata>
-    <timestamp>2024-10-04T08:45:01.706312+00:00</timestamp>
     <tools>
-      <tool>
-        <vendor>CycloneDX</vendor>
-        <name>cyclonedx-bom</name>
-        <version>4.6.1</version>
-        <externalReferences>
-          <reference type="build-system">
-            <url>https://github.com/CycloneDX/cyclonedx-python/actions</url>
-          </reference>
-          <reference type="distribution">
-            <url>https://pypi.org/project/cyclonedx-bom/</url>
-          </reference>
-          <reference type="documentation">
-            <url>https://cyclonedx-bom-tool.readthedocs.io/</url>
-          </reference>
-          <reference type="issue-tracker">
-            <url>https://github.com/CycloneDX/cyclonedx-python/issues</url>
-          </reference>
-          <reference type="license">
-            <url>https://github.com/CycloneDX/cyclonedx-python/blob/main/LICENSE</url>
-          </reference>
-          <reference type="release-notes">
-            <url>https://github.com/CycloneDX/cyclonedx-python/blob/main/CHANGELOG.md</url>
-          </reference>
-          <reference type="vcs">
-            <url>https://github.com/CycloneDX/cyclonedx-python/</url>
-          </reference>
-          <reference type="website">
-            <url>https://github.com/CycloneDX/cyclonedx-python/#readme</url>
-          </reference>
-        </externalReferences>
-      </tool>
-      <tool>
-        <vendor>CycloneDX</vendor>
-        <name>cyclonedx-python-lib</name>
-        <version>7.6.1</version>
-        <externalReferences>
-          <reference type="build-system">
-            <url>https://github.com/CycloneDX/cyclonedx-python-lib/actions</url>
-          </reference>
-          <reference type="distribution">
-            <url>https://pypi.org/project/cyclonedx-python-lib/</url>
-          </reference>
-          <reference type="documentation">
-            <url>https://cyclonedx-python-library.readthedocs.io/</url>
-          </reference>
-          <reference type="issue-tracker">
-            <url>https://github.com/CycloneDX/cyclonedx-python-lib/issues</url>
-          </reference>
-          <reference type="license">
-            <url>https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/LICENSE</url>
-          </reference>
-          <reference type="release-notes">
-            <url>https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/CHANGELOG.md</url>
-          </reference>
-          <reference type="vcs">
-            <url>https://github.com/CycloneDX/cyclonedx-python-lib</url>
-          </reference>
-          <reference type="website">
-            <url>https://github.com/CycloneDX/cyclonedx-python-lib/#readme</url>
-          </reference>
-        </externalReferences>
-      </tool>
+      <components>
+        <component type="application">
+          <group>CycloneDX</group>
+          <name>cyclonedx-py</name>
+          <version>5.1.1</version>
+          <description>CycloneDX Software Bill of Materials (SBOM) generator for Python projects and environments</description>
+          <licenses>
+            <license>
+              <id>Apache-2.0</id>
+            </license>
+          </licenses>
+          <externalReferences>
+            <reference type="build-system">
+              <url>https://github.com/CycloneDX/cyclonedx-python/actions</url>
+            </reference>
+            <reference type="distribution">
+              <url>https://pypi.org/project/cyclonedx-bom/</url>
+            </reference>
+            <reference type="documentation">
+              <url>https://cyclonedx-bom-tool.readthedocs.io/</url>
+            </reference>
+            <reference type="issue-tracker">
+              <url>https://github.com/CycloneDX/cyclonedx-python/issues</url>
+            </reference>
+            <reference type="license">
+              <url>https://github.com/CycloneDX/cyclonedx-python/blob/main/LICENSE</url>
+            </reference>
+            <reference type="release-notes">
+              <url>https://github.com/CycloneDX/cyclonedx-python/blob/main/CHANGELOG.md</url>
+            </reference>
+            <reference type="vcs">
+              <url>https://github.com/CycloneDX/cyclonedx-python/</url>
+            </reference>
+            <reference type="website">
+              <url>https://github.com/CycloneDX/cyclonedx-python/#readme</url>
+            </reference>
+          </externalReferences>
+        </component>
+        <component type="library">
+          <group>CycloneDX</group>
+          <name>cyclonedx-python-lib</name>
+          <version>8.5.0</version>
+          <description>Python library for CycloneDX</description>
+          <licenses>
+            <license>
+              <id>Apache-2.0</id>
+            </license>
+          </licenses>
+          <externalReferences>
+            <reference type="build-system">
+              <url>https://github.com/CycloneDX/cyclonedx-python-lib/actions</url>
+            </reference>
+            <reference type="distribution">
+              <url>https://pypi.org/project/cyclonedx-python-lib/</url>
+            </reference>
+            <reference type="documentation">
+              <url>https://cyclonedx-python-library.readthedocs.io/</url>
+            </reference>
+            <reference type="issue-tracker">
+              <url>https://github.com/CycloneDX/cyclonedx-python-lib/issues</url>
+            </reference>
+            <reference type="license">
+              <url>https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/LICENSE</url>
+            </reference>
+            <reference type="release-notes">
+              <url>https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/CHANGELOG.md</url>
+            </reference>
+            <reference type="vcs">
+              <url>https://github.com/CycloneDX/cyclonedx-python-lib</url>
+            </reference>
+            <reference type="website">
+              <url>https://github.com/CycloneDX/cyclonedx-python-lib/#readme</url>
+            </reference>
+          </externalReferences>
+        </component>
+      </components>
     </tools>
+    <component type="library" bom-ref="root-component">
+      <name>dkb_robo</name>
+      <version>0.28</version>
+      <description>Download transactions from the website of Deutsche Kreditbak AG</description>
+      <licenses>
+        <license>
+          <id>GPL-3.0-or-later</id>
+        </license>
+      </licenses>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/grindsa/dkb-robo/issues</url>
+          <comment>from pyproject urls: Issues</comment>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/grindsa/dkb-robo</url>
+          <comment>from pyproject urls: Repository</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <properties>
+      <property name="cdx:reproducible">true</property>
+    </properties>
   </metadata>
   <components>
-    <component type="library" bom-ref="requirements-L3">
+    <component type="library" bom-ref="MechanicalSoup==1.3.0">
+      <name>MechanicalSoup</name>
+      <version>1.3.0</version>
+      <description>A Python library for automating interaction with websites</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/mechanicalsoup@1.3.0</purl>
+      <externalReferences>
+        <reference type="other">
+          <url>https://github.com/MechanicalSoup/MechanicalSoup</url>
+          <comment>from packaging metadata Project-URL: Source</comment>
+        </reference>
+        <reference type="website">
+          <url>https://mechanicalsoup.readthedocs.io/</url>
+          <comment>from packaging metadata: Home-page</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="beautifulsoup4==4.12.3">
+      <name>beautifulsoup4</name>
+      <version>4.12.3</version>
+      <description>Screen-scraping library</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>declared license of 'beautifulsoup4'</name>
+          <text content-type="text/plain">MIT License</text>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/beautifulsoup4@4.12.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.crummy.com/software/BeautifulSoup/bs4/download/</url>
+          <comment>from packaging metadata Project-URL: Download</comment>
+        </reference>
+        <reference type="website">
+          <url>https://www.crummy.com/software/BeautifulSoup/bs4/</url>
+          <comment>from packaging metadata Project-URL: Homepage</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="bs4==0.0.2">
+      <name>bs4</name>
+      <version>0.0.2</version>
+      <description>Dummy package for Beautiful Soup (beautifulsoup4)</description>
+      <licenses>
+        <license>
+          <name>declared license of 'bs4'</name>
+          <text content-type="text/plain">MIT License</text>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/bs4@0.0.2</purl>
+    </component>
+    <component type="library" bom-ref="certifi==2024.8.30">
+      <name>certifi</name>
+      <version>2024.8.30</version>
+      <description>Python package for providing Mozilla's CA Bundle.</description>
+      <licenses>
+        <license>
+          <id>MPL-2.0</id>
+        </license>
+        <license>
+          <name>License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/certifi@2024.8.30</purl>
+      <externalReferences>
+        <reference type="other">
+          <url>https://github.com/certifi/python-certifi</url>
+          <comment>from packaging metadata Project-URL: Source</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/certifi/python-certifi</url>
+          <comment>from packaging metadata: Home-page</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="charset-normalizer==3.4.0">
+      <name>charset-normalizer</name>
+      <version>3.4.0</version>
+      <description>The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/charset-normalizer@3.4.0</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://charset-normalizer.readthedocs.io/en/latest</url>
+          <comment>from packaging metadata Project-URL: Documentation</comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/Ousret/charset_normalizer/issues</url>
+          <comment>from packaging metadata Project-URL: Bug Reports</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/Ousret/charset_normalizer</url>
+          <comment>from packaging metadata: Home-page</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="click==8.1.7">
       <name>click</name>
-      <description>requirements line 3: click</description>
-      <purl>pkg:pypi/click</purl>
+      <version>8.1.7</version>
+      <description>Composable command line interface toolkit</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+        <license>
+          <name>License :: OSI Approved :: BSD License</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/click@8.1.7</purl>
       <externalReferences>
-        <reference type="distribution">
-          <url>/tmp/requirements_freeze.txt/click/</url>
-          <comment>implicit dist url</comment>
+        <reference type="chat">
+          <url>https://discord.gg/pallets</url>
+          <comment>from packaging metadata Project-URL: Chat</comment>
+        </reference>
+        <reference type="documentation">
+          <url>https://click.palletsprojects.com/</url>
+          <comment>from packaging metadata Project-URL: Documentation</comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/pallets/click/issues/</url>
+          <comment>from packaging metadata Project-URL: Issue Tracker</comment>
+        </reference>
+        <reference type="other">
+          <url>https://github.com/pallets/click/</url>
+          <comment>from packaging metadata Project-URL: Source Code</comment>
+        </reference>
+        <reference type="other">
+          <url>https://palletsprojects.com/donate</url>
+          <comment>from packaging metadata Project-URL: Donate</comment>
+        </reference>
+        <reference type="release-notes">
+          <url>https://click.palletsprojects.com/changes/</url>
+          <comment>from packaging metadata Project-URL: Changes</comment>
+        </reference>
+        <reference type="website">
+          <url>https://palletsprojects.com/p/click/</url>
+          <comment>from packaging metadata: Home-page</comment>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="requirements-L1">
-      <name>mechanicalsoup</name>
-      <description>requirements line 1: mechanicalsoup</description>
-      <purl>pkg:pypi/mechanicalsoup</purl>
+    <component type="library" bom-ref="idna==3.10">
+      <name>idna</name>
+      <version>3.10</version>
+      <description>Internationalized Domain Names in Applications (IDNA)</description>
+      <licenses>
+        <license>
+          <name>License :: OSI Approved :: BSD License</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/idna@3.10</purl>
       <externalReferences>
-        <reference type="distribution">
-          <url>/tmp/requirements_freeze.txt/mechanicalsoup/</url>
-          <comment>implicit dist url</comment>
+        <reference type="issue-tracker">
+          <url>https://github.com/kjd/idna/issues</url>
+          <comment>from packaging metadata Project-URL: Issue tracker</comment>
+        </reference>
+        <reference type="other">
+          <url>https://github.com/kjd/idna</url>
+          <comment>from packaging metadata Project-URL: Source</comment>
+        </reference>
+        <reference type="release-notes">
+          <url>https://github.com/kjd/idna/blob/master/HISTORY.rst</url>
+          <comment>from packaging metadata Project-URL: Changelog</comment>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="requirements-L5">
+    <component type="library" bom-ref="lxml==5.3.0">
+      <name>lxml</name>
+      <version>5.3.0</version>
+      <description>Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+        <license>
+          <name>License :: OSI Approved :: BSD License</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/lxml@5.3.0</purl>
+      <externalReferences>
+        <reference type="other">
+          <url>https://github.com/lxml/lxml</url>
+          <comment>from packaging metadata Project-URL: Source</comment>
+        </reference>
+        <reference type="website">
+          <url>https://lxml.de/</url>
+          <comment>from packaging metadata: Home-page</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pillow==11.0.0">
       <name>pillow</name>
-      <description>requirements line 5: pillow</description>
-      <purl>pkg:pypi/pillow</purl>
+      <version>11.0.0</version>
+      <description>Python Imaging Library (Fork)</description>
+      <licenses>
+        <license>
+          <id>MIT-CMU</id>
+        </license>
+        <license>
+          <name>License :: OSI Approved :: CMU License (MIT-CMU)</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/pillow@11.0.0</purl>
       <externalReferences>
-        <reference type="distribution">
-          <url>/tmp/requirements_freeze.txt/pillow/</url>
-          <comment>implicit dist url</comment>
+        <reference type="documentation">
+          <url>https://pillow.readthedocs.io</url>
+          <comment>from packaging metadata Project-URL: Documentation</comment>
+        </reference>
+        <reference type="other">
+          <url>https://fosstodon.org/@pillow</url>
+          <comment>from packaging metadata Project-URL: Mastodon</comment>
+        </reference>
+        <reference type="other">
+          <url>https://github.com/python-pillow/Pillow</url>
+          <comment>from packaging metadata Project-URL: Source</comment>
+        </reference>
+        <reference type="other">
+          <url>https://pillow.readthedocs.io/en/stable/releasenotes/index.html</url>
+          <comment>from packaging metadata Project-URL: Release notes</comment>
+        </reference>
+        <reference type="other">
+          <url>https://tidelift.com/subscription/pkg/pypi-pillow?utm_source=pypi-pillow&amp;utm_medium=pypi</url>
+          <comment>from packaging metadata Project-URL: Funding</comment>
+        </reference>
+        <reference type="release-notes">
+          <url>https://github.com/python-pillow/Pillow/blob/main/CHANGES.rst</url>
+          <comment>from packaging metadata Project-URL: Changelog</comment>
+        </reference>
+        <reference type="website">
+          <url>https://python-pillow.org</url>
+          <comment>from packaging metadata Project-URL: Homepage</comment>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="requirements-L4">
+    <component type="library" bom-ref="pip==24.2">
+      <name>pip</name>
+      <version>24.2</version>
+      <description>The PyPA recommended tool for installing Python packages.</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/pip@24.2</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://pip.pypa.io</url>
+          <comment>from packaging metadata Project-URL: Documentation</comment>
+        </reference>
+        <reference type="other">
+          <url>https://github.com/pypa/pip</url>
+          <comment>from packaging metadata Project-URL: Source</comment>
+        </reference>
+        <reference type="release-notes">
+          <url>https://pip.pypa.io/en/stable/news/</url>
+          <comment>from packaging metadata Project-URL: Changelog</comment>
+        </reference>
+        <reference type="website">
+          <url>https://pip.pypa.io/</url>
+          <comment>from packaging metadata Project-URL: Homepage</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="requests==2.32.3">
       <name>requests</name>
-      <description>requirements line 4: requests</description>
-      <purl>pkg:pypi/requests</purl>
+      <version>2.32.3</version>
+      <description>Python HTTP for Humans.</description>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+        <license>
+          <name>License :: OSI Approved :: Apache Software License</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/requests@2.32.3</purl>
       <externalReferences>
-        <reference type="distribution">
-          <url>/tmp/requirements_freeze.txt/requests/</url>
-          <comment>implicit dist url</comment>
+        <reference type="documentation">
+          <url>https://requests.readthedocs.io</url>
+          <comment>from packaging metadata Project-URL: Documentation</comment>
+        </reference>
+        <reference type="other">
+          <url>https://github.com/psf/requests</url>
+          <comment>from packaging metadata Project-URL: Source</comment>
+        </reference>
+        <reference type="website">
+          <url>https://requests.readthedocs.io</url>
+          <comment>from packaging metadata: Home-page</comment>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="requirements-L2">
-      <name>tabulate</name>
-      <description>requirements line 2: tabulate</description>
-      <purl>pkg:pypi/tabulate</purl>
+    <component type="library" bom-ref="soupsieve==2.6">
+      <name>soupsieve</name>
+      <version>2.6</version>
+      <description>A modern CSS selector implementation for Beautiful Soup.</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/soupsieve@2.6</purl>
       <externalReferences>
-        <reference type="distribution">
-          <url>/tmp/requirements_freeze.txt/tabulate/</url>
-          <comment>implicit dist url</comment>
+        <reference type="website">
+          <url>https://github.com/facelessuser/soupsieve</url>
+          <comment>from packaging metadata Project-URL: Homepage</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="tabulate==0.9.0">
+      <name>tabulate</name>
+      <version>0.9.0</version>
+      <description>Pretty-print tabular data</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/tabulate@0.9.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/astanin/python-tabulate</url>
+          <comment>from packaging metadata Project-URL: Homepage</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="urllib3==2.2.3">
+      <name>urllib3</name>
+      <version>2.2.3</version>
+      <description>HTTP library with thread-safe connection pooling, file post, and more.</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/urllib3@2.2.3</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://urllib3.readthedocs.io</url>
+          <comment>from packaging metadata Project-URL: Documentation</comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/urllib3/urllib3/issues</url>
+          <comment>from packaging metadata Project-URL: Issue tracker</comment>
+        </reference>
+        <reference type="other">
+          <url>https://github.com/urllib3/urllib3</url>
+          <comment>from packaging metadata Project-URL: Code</comment>
+        </reference>
+        <reference type="release-notes">
+          <url>https://github.com/urllib3/urllib3/blob/main/CHANGES.rst</url>
+          <comment>from packaging metadata Project-URL: Changelog</comment>
         </reference>
       </externalReferences>
     </component>
   </components>
   <dependencies>
-    <dependency ref="requirements-L1"/>
-    <dependency ref="requirements-L2"/>
-    <dependency ref="requirements-L3"/>
-    <dependency ref="requirements-L4"/>
-    <dependency ref="requirements-L5"/>
+    <dependency ref="MechanicalSoup==1.3.0">
+      <dependency ref="beautifulsoup4==4.12.3"/>
+      <dependency ref="lxml==5.3.0"/>
+      <dependency ref="requests==2.32.3"/>
+    </dependency>
+    <dependency ref="beautifulsoup4==4.12.3">
+      <dependency ref="charset-normalizer==3.4.0"/>
+      <dependency ref="lxml==5.3.0"/>
+      <dependency ref="soupsieve==2.6"/>
+    </dependency>
+    <dependency ref="bs4==0.0.2">
+      <dependency ref="beautifulsoup4==4.12.3"/>
+    </dependency>
+    <dependency ref="certifi==2024.8.30"/>
+    <dependency ref="charset-normalizer==3.4.0"/>
+    <dependency ref="click==8.1.7"/>
+    <dependency ref="idna==3.10"/>
+    <dependency ref="lxml==5.3.0">
+      <dependency ref="beautifulsoup4==4.12.3"/>
+    </dependency>
+    <dependency ref="pillow==11.0.0"/>
+    <dependency ref="pip==24.2"/>
+    <dependency ref="requests==2.32.3">
+      <dependency ref="certifi==2024.8.30"/>
+      <dependency ref="charset-normalizer==3.4.0"/>
+      <dependency ref="idna==3.10"/>
+      <dependency ref="urllib3==2.2.3"/>
+    </dependency>
+    <dependency ref="root-component">
+      <dependency ref="MechanicalSoup==1.3.0"/>
+      <dependency ref="bs4==0.0.2"/>
+      <dependency ref="click==8.1.7"/>
+      <dependency ref="pillow==11.0.0"/>
+      <dependency ref="requests==2.32.3"/>
+      <dependency ref="tabulate==0.9.0"/>
+    </dependency>
+    <dependency ref="soupsieve==2.6"/>
+    <dependency ref="tabulate==0.9.0"/>
+    <dependency ref="urllib3==2.2.3"/>
   </dependencies>
 </bom>
