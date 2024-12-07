@@ -186,7 +186,7 @@ requests-pkcs12        1.25                               python
 sed                    4.9-2build1                        deb       
 sensible-utils         0.0.22                             deb       
 setuptools             68.1.2                             python    
-six                    1.16.0                             python    
+six                    1.17.0                             python    
 supervisor             4.2.5                              python    
 sysvinit-utils         3.08-6ubuntu3                      deb       
 tar                    1.35+dfsg-3build1                  deb       
