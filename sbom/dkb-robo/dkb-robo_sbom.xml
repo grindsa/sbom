@@ -81,7 +81,7 @@
     </tools>
     <component type="library" bom-ref="root-component">
       <name>dkb_robo</name>
-      <version>0.28.2</version>
+      <version>0.28.3</version>
       <description>Download transactions from the website of Deutsche Kreditbak AG</description>
       <licenses>
         <license>
@@ -186,28 +186,32 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="charset-normalizer==3.4.0">
+    <component type="library" bom-ref="charset-normalizer==3.4.1">
       <name>charset-normalizer</name>
-      <version>3.4.0</version>
+      <version>3.4.1</version>
       <description>The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.</description>
       <licenses>
         <license>
           <id>MIT</id>
         </license>
       </licenses>
-      <purl>pkg:pypi/charset-normalizer@3.4.0</purl>
+      <purl>pkg:pypi/charset-normalizer@3.4.1</purl>
       <externalReferences>
         <reference type="documentation">
-          <url>https://charset-normalizer.readthedocs.io/en/latest</url>
+          <url>https://charset-normalizer.readthedocs.io/</url>
           <comment>from packaging metadata Project-URL: Documentation</comment>
         </reference>
         <reference type="issue-tracker">
-          <url>https://github.com/Ousret/charset_normalizer/issues</url>
-          <comment>from packaging metadata Project-URL: Bug Reports</comment>
+          <url>https://github.com/jawah/charset_normalizer/issues</url>
+          <comment>from packaging metadata Project-URL: Issue tracker</comment>
         </reference>
-        <reference type="website">
-          <url>https://github.com/Ousret/charset_normalizer</url>
-          <comment>from packaging metadata: Home-page</comment>
+        <reference type="other">
+          <url>https://github.com/jawah/charset_normalizer</url>
+          <comment>from packaging metadata Project-URL: Code</comment>
+        </reference>
+        <reference type="release-notes">
+          <url>https://github.com/jawah/charset_normalizer/blob/master/CHANGELOG.md</url>
+          <comment>from packaging metadata Project-URL: Changelog</comment>
         </reference>
       </externalReferences>
     </component>
@@ -293,9 +297,9 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pillow==11.0.0">
+    <component type="library" bom-ref="pillow==11.1.0">
       <name>pillow</name>
-      <version>11.0.0</version>
+      <version>11.1.0</version>
       <description>Python Imaging Library (Fork)</description>
       <licenses>
         <license>
@@ -305,7 +309,7 @@
           <name>License :: OSI Approved :: CMU License (MIT-CMU)</name>
         </license>
       </licenses>
-      <purl>pkg:pypi/pillow@11.0.0</purl>
+      <purl>pkg:pypi/pillow@11.1.0</purl>
       <externalReferences>
         <reference type="documentation">
           <url>https://pillow.readthedocs.io</url>
@@ -328,11 +332,11 @@
           <comment>from packaging metadata Project-URL: Funding</comment>
         </reference>
         <reference type="release-notes">
-          <url>https://github.com/python-pillow/Pillow/blob/main/CHANGES.rst</url>
+          <url>https://github.com/python-pillow/Pillow/releases</url>
           <comment>from packaging metadata Project-URL: Changelog</comment>
         </reference>
         <reference type="website">
-          <url>https://python-pillow.org</url>
+          <url>https://python-pillow.github.io</url>
           <comment>from packaging metadata Project-URL: Homepage</comment>
         </reference>
       </externalReferences>
@@ -465,7 +469,7 @@
       <dependency ref="requests==2.32.3"/>
     </dependency>
     <dependency ref="beautifulsoup4==4.12.3">
-      <dependency ref="charset-normalizer==3.4.0"/>
+      <dependency ref="charset-normalizer==3.4.1"/>
       <dependency ref="lxml==5.3.0"/>
       <dependency ref="soupsieve==2.6"/>
     </dependency>
@@ -473,17 +477,17 @@
       <dependency ref="beautifulsoup4==4.12.3"/>
     </dependency>
     <dependency ref="certifi==2024.12.14"/>
-    <dependency ref="charset-normalizer==3.4.0"/>
+    <dependency ref="charset-normalizer==3.4.1"/>
     <dependency ref="click==8.1.8"/>
     <dependency ref="idna==3.10"/>
     <dependency ref="lxml==5.3.0">
       <dependency ref="beautifulsoup4==4.12.3"/>
     </dependency>
-    <dependency ref="pillow==11.0.0"/>
+    <dependency ref="pillow==11.1.0"/>
     <dependency ref="pip==24.3.1"/>
     <dependency ref="requests==2.32.3">
       <dependency ref="certifi==2024.12.14"/>
-      <dependency ref="charset-normalizer==3.4.0"/>
+      <dependency ref="charset-normalizer==3.4.1"/>
       <dependency ref="idna==3.10"/>
       <dependency ref="urllib3==2.3.0"/>
     </dependency>
@@ -491,7 +495,7 @@
       <dependency ref="MechanicalSoup==1.3.0"/>
       <dependency ref="bs4==0.0.2"/>
       <dependency ref="click==8.1.8"/>
-      <dependency ref="pillow==11.0.0"/>
+      <dependency ref="pillow==11.1.0"/>
       <dependency ref="requests==2.32.3"/>
       <dependency ref="tabulate==0.9.0"/>
     </dependency>
