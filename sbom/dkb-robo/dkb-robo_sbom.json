@@ -83,7 +83,7 @@
       "version": "0.0.2"
     },
     {
-      "bom-ref": "certifi==2024.12.14",
+      "bom-ref": "certifi==2025.1.31",
       "description": "Python package for providing Mozilla's CA Bundle.",
       "externalReferences": [
         {
@@ -110,9 +110,9 @@
         }
       ],
       "name": "certifi",
-      "purl": "pkg:pypi/certifi@2024.12.14",
+      "purl": "pkg:pypi/certifi@2025.1.31",
       "type": "library",
-      "version": "2024.12.14"
+      "version": "2025.1.31"
     },
     {
       "bom-ref": "charset-normalizer==3.4.1",
@@ -494,7 +494,7 @@
       "ref": "bs4==0.0.2"
     },
     {
-      "ref": "certifi==2024.12.14"
+      "ref": "certifi==2025.1.31"
     },
     {
       "ref": "charset-normalizer==3.4.1"
@@ -519,7 +519,7 @@
     },
     {
       "dependsOn": [
-        "certifi==2024.12.14",
+        "certifi==2025.1.31",
         "charset-normalizer==3.4.1",
         "idna==3.10",
         "urllib3==2.3.0"
@@ -628,7 +628,7 @@
           ],
           "name": "cyclonedx-py",
           "type": "application",
-          "version": "5.1.1"
+          "version": "5.1.2"
         },
         {
           "description": "Python library for CycloneDX",
@@ -676,7 +676,7 @@
           ],
           "name": "cyclonedx-python-lib",
           "type": "library",
-          "version": "8.5.0"
+          "version": "8.5.1"
         }
       ]
     }
