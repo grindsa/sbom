@@ -81,7 +81,7 @@
     </tools>
     <component type="library" bom-ref="root-component">
       <name>dkb_robo</name>
-      <version>0.28.3</version>
+      <version>0.29</version>
       <description>Download transactions from the website of Deutsche Kreditbak AG</description>
       <licenses>
         <license>
