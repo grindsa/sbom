@@ -81,7 +81,7 @@
     </tools>
     <component type="library" bom-ref="root-component">
       <name>dkb_robo</name>
-      <version>0.29</version>
+      <version>0.29.1</version>
       <description>Download transactions from the website of Deutsche Kreditbak AG</description>
       <licenses>
         <license>
@@ -125,9 +125,9 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="beautifulsoup4==4.12.3">
+    <component type="library" bom-ref="beautifulsoup4==4.13.0">
       <name>beautifulsoup4</name>
-      <version>4.12.3</version>
+      <version>4.13.0</version>
       <description>Screen-scraping library</description>
       <licenses>
         <license>
@@ -138,7 +138,7 @@
           <text content-type="text/plain">MIT License</text>
         </license>
       </licenses>
-      <purl>pkg:pypi/beautifulsoup4@4.12.3</purl>
+      <purl>pkg:pypi/beautifulsoup4@4.13.0</purl>
       <externalReferences>
         <reference type="distribution">
           <url>https://www.crummy.com/software/BeautifulSoup/bs4/download/</url>
@@ -432,6 +432,43 @@
         </reference>
       </externalReferences>
     </component>
+    <component type="library" bom-ref="typing_extensions==4.12.2">
+      <name>typing_extensions</name>
+      <version>4.12.2</version>
+      <description>Backported and Experimental Type Hints for Python 3.8+</description>
+      <licenses>
+        <license>
+          <id>Python-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/typing-extensions@4.12.2</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://typing-extensions.readthedocs.io/</url>
+          <comment>from packaging metadata Project-URL: Documentation</comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/python/typing_extensions/issues</url>
+          <comment>from packaging metadata Project-URL: Bug Tracker</comment>
+        </reference>
+        <reference type="other">
+          <url>https://github.com/python/typing/discussions</url>
+          <comment>from packaging metadata Project-URL: Q &amp; A</comment>
+        </reference>
+        <reference type="release-notes">
+          <url>https://github.com/python/typing_extensions/blob/main/CHANGELOG.md</url>
+          <comment>from packaging metadata Project-URL: Changes</comment>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/python/typing_extensions</url>
+          <comment>from packaging metadata Project-URL: Repository</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/python/typing_extensions</url>
+          <comment>from packaging metadata Project-URL: Home</comment>
+        </reference>
+      </externalReferences>
+    </component>
     <component type="library" bom-ref="urllib3==2.3.0">
       <name>urllib3</name>
       <version>2.3.0</version>
@@ -464,26 +501,29 @@
   </components>
   <dependencies>
     <dependency ref="MechanicalSoup==1.3.0">
-      <dependency ref="beautifulsoup4==4.12.3"/>
+      <dependency ref="beautifulsoup4==4.13.0"/>
       <dependency ref="lxml==5.3.0"/>
       <dependency ref="requests==2.32.3"/>
     </dependency>
-    <dependency ref="beautifulsoup4==4.12.3">
+    <dependency ref="beautifulsoup4==4.13.0">
       <dependency ref="charset-normalizer==3.4.1"/>
       <dependency ref="lxml==5.3.0"/>
       <dependency ref="soupsieve==2.6"/>
+      <dependency ref="typing_extensions==4.12.2"/>
     </dependency>
     <dependency ref="bs4==0.0.2">
-      <dependency ref="beautifulsoup4==4.12.3"/>
+      <dependency ref="beautifulsoup4==4.13.0"/>
     </dependency>
     <dependency ref="certifi==2025.1.31"/>
     <dependency ref="charset-normalizer==3.4.1"/>
     <dependency ref="click==8.1.8"/>
     <dependency ref="idna==3.10"/>
     <dependency ref="lxml==5.3.0">
-      <dependency ref="beautifulsoup4==4.12.3"/>
+      <dependency ref="beautifulsoup4==4.13.0"/>
     </dependency>
-    <dependency ref="pillow==11.1.0"/>
+    <dependency ref="pillow==11.1.0">
+      <dependency ref="typing_extensions==4.12.2"/>
+    </dependency>
     <dependency ref="pip==24.3.1"/>
     <dependency ref="requests==2.32.3">
       <dependency ref="certifi==2025.1.31"/>
@@ -501,6 +541,7 @@
     </dependency>
     <dependency ref="soupsieve==2.6"/>
     <dependency ref="tabulate==0.9.0"/>
+    <dependency ref="typing_extensions==4.12.2"/>
     <dependency ref="urllib3==2.3.0"/>
   </dependencies>
 </bom>
