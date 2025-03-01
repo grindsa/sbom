@@ -28,7 +28,7 @@
       "version": "1.3.0"
     },
     {
-      "bom-ref": "beautifulsoup4==4.13.0",
+      "bom-ref": "beautifulsoup4==4.13.3",
       "description": "Screen-scraping library",
       "externalReferences": [
         {
@@ -59,9 +59,9 @@
         }
       ],
       "name": "beautifulsoup4",
-      "purl": "pkg:pypi/beautifulsoup4@4.13.0",
+      "purl": "pkg:pypi/beautifulsoup4@4.13.3",
       "type": "library",
-      "version": "4.13.0"
+      "version": "4.13.3"
     },
     {
       "bom-ref": "bs4==0.0.2",
@@ -226,7 +226,7 @@
       "version": "3.10"
     },
     {
-      "bom-ref": "lxml==5.3.0",
+      "bom-ref": "lxml==5.3.1",
       "description": "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.",
       "externalReferences": [
         {
@@ -253,9 +253,9 @@
         }
       ],
       "name": "lxml",
-      "purl": "pkg:pypi/lxml@5.3.0",
+      "purl": "pkg:pypi/lxml@5.3.1",
       "type": "library",
-      "version": "5.3.0"
+      "version": "5.3.1"
     },
     {
       "bom-ref": "pillow==11.1.0",
@@ -520,8 +520,8 @@
   "dependencies": [
     {
       "dependsOn": [
-        "beautifulsoup4==4.13.0",
-        "lxml==5.3.0",
+        "beautifulsoup4==4.13.3",
+        "lxml==5.3.1",
         "requests==2.32.3"
       ],
       "ref": "MechanicalSoup==1.3.0"
@@ -529,15 +529,15 @@
     {
       "dependsOn": [
         "charset-normalizer==3.4.1",
-        "lxml==5.3.0",
+        "lxml==5.3.1",
         "soupsieve==2.6",
         "typing_extensions==4.12.2"
       ],
-      "ref": "beautifulsoup4==4.13.0"
+      "ref": "beautifulsoup4==4.13.3"
     },
     {
       "dependsOn": [
-        "beautifulsoup4==4.13.0"
+        "beautifulsoup4==4.13.3"
       ],
       "ref": "bs4==0.0.2"
     },
@@ -555,9 +555,9 @@
     },
     {
       "dependsOn": [
-        "beautifulsoup4==4.13.0"
+        "beautifulsoup4==4.13.3"
       ],
-      "ref": "lxml==5.3.0"
+      "ref": "lxml==5.3.1"
     },
     {
       "dependsOn": [
@@ -626,7 +626,7 @@
       ],
       "name": "dkb_robo",
       "type": "library",
-      "version": "0.29.1"
+      "version": "0.29.2"
     },
     "properties": [
       {
@@ -682,7 +682,7 @@
           ],
           "name": "cyclonedx-py",
           "type": "application",
-          "version": "5.1.2"
+          "version": "5.3.0"
         },
         {
           "description": "Python library for CycloneDX",
@@ -730,7 +730,7 @@
           ],
           "name": "cyclonedx-python-lib",
           "type": "library",
-          "version": "8.5.1"
+          "version": "9.1.0"
         }
       ]
     }
