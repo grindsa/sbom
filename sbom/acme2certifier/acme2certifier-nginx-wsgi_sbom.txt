@@ -160,7 +160,7 @@ procps                 2:4.0.4-4ubuntu3.2                 deb
 pyasn1                 0.6.1                              python    
 pyasn1-modules         0.4.1                              python    
 pycparser              2.22                               python    
-pycryptodomex          3.21.0                             python    
+pycryptodomex          3.22.0                             python    
 pyopenssl              24.0.0                             python    
 pyrfc3339              2.0.1                              python    
 pysocks                1.7.1                              python    
