@@ -626,7 +626,7 @@
       ],
       "name": "dkb_robo",
       "type": "library",
-      "version": "0.29.2"
+      "version": "0.29.3"
     },
     "properties": [
       {
