@@ -81,7 +81,7 @@
     </tools>
     <component type="library" bom-ref="root-component">
       <name>dkb_robo</name>
-      <version>0.29.3</version>
+      <version>0.29.4</version>
       <description>Download transactions from the website of Deutsche Kreditbak AG</description>
       <licenses>
         <license>
@@ -297,9 +297,9 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pillow==11.1.0">
+    <component type="library" bom-ref="pillow==11.2.0">
       <name>pillow</name>
-      <version>11.1.0</version>
+      <version>11.2.0</version>
       <description>Python Imaging Library (Fork)</description>
       <licenses>
         <license>
@@ -309,7 +309,7 @@
           <name>License :: OSI Approved :: CMU License (MIT-CMU)</name>
         </license>
       </licenses>
-      <purl>pkg:pypi/pillow@11.1.0</purl>
+      <purl>pkg:pypi/pillow@11.2.0</purl>
       <externalReferences>
         <reference type="documentation">
           <url>https://pillow.readthedocs.io</url>
@@ -432,16 +432,11 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="typing_extensions==4.12.2">
+    <component type="library" bom-ref="typing_extensions==4.13.0">
       <name>typing_extensions</name>
-      <version>4.12.2</version>
+      <version>4.13.0</version>
       <description>Backported and Experimental Type Hints for Python 3.8+</description>
-      <licenses>
-        <license>
-          <id>Python-2.0</id>
-        </license>
-      </licenses>
-      <purl>pkg:pypi/typing-extensions@4.12.2</purl>
+      <purl>pkg:pypi/typing-extensions@4.13.0</purl>
       <externalReferences>
         <reference type="documentation">
           <url>https://typing-extensions.readthedocs.io/</url>
@@ -509,7 +504,7 @@
       <dependency ref="charset-normalizer==3.4.1"/>
       <dependency ref="lxml==5.3.1"/>
       <dependency ref="soupsieve==2.6"/>
-      <dependency ref="typing_extensions==4.12.2"/>
+      <dependency ref="typing_extensions==4.13.0"/>
     </dependency>
     <dependency ref="bs4==0.0.2">
       <dependency ref="beautifulsoup4==4.13.3"/>
@@ -521,8 +516,8 @@
     <dependency ref="lxml==5.3.1">
       <dependency ref="beautifulsoup4==4.13.3"/>
     </dependency>
-    <dependency ref="pillow==11.1.0">
-      <dependency ref="typing_extensions==4.12.2"/>
+    <dependency ref="pillow==11.2.0">
+      <dependency ref="typing_extensions==4.13.0"/>
     </dependency>
     <dependency ref="pip==24.3.1"/>
     <dependency ref="requests==2.32.3">
@@ -535,13 +530,13 @@
       <dependency ref="MechanicalSoup==1.3.0"/>
       <dependency ref="bs4==0.0.2"/>
       <dependency ref="click==8.1.8"/>
-      <dependency ref="pillow==11.1.0"/>
+      <dependency ref="pillow==11.2.0"/>
       <dependency ref="requests==2.32.3"/>
       <dependency ref="tabulate==0.9.0"/>
     </dependency>
     <dependency ref="soupsieve==2.6"/>
     <dependency ref="tabulate==0.9.0"/>
-    <dependency ref="typing_extensions==4.12.2"/>
+    <dependency ref="typing_extensions==4.13.0"/>
     <dependency ref="urllib3==2.3.0"/>
   </dependencies>
 </bom>
