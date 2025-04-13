@@ -81,7 +81,7 @@
     </tools>
     <component type="library" bom-ref="root-component">
       <name>dkb_robo</name>
-      <version>0.30</version>
+      <version>0.30.1</version>
       <description>Download transactions from the website of Deutsche Kreditbak AG</description>
       <licenses>
         <license>
@@ -297,19 +297,11 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pillow==11.1.0">
+    <component type="library" bom-ref="pillow==11.2.1">
       <name>pillow</name>
-      <version>11.1.0</version>
+      <version>11.2.1</version>
       <description>Python Imaging Library (Fork)</description>
-      <licenses>
-        <license>
-          <id>MIT-CMU</id>
-        </license>
-        <license>
-          <name>License :: OSI Approved :: CMU License (MIT-CMU)</name>
-        </license>
-      </licenses>
-      <purl>pkg:pypi/pillow@11.1.0</purl>
+      <purl>pkg:pypi/pillow@11.2.1</purl>
       <externalReferences>
         <reference type="documentation">
           <url>https://pillow.readthedocs.io</url>
@@ -341,16 +333,16 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pip==24.3.1">
+    <component type="library" bom-ref="pip==24.0">
       <name>pip</name>
-      <version>24.3.1</version>
+      <version>24.0</version>
       <description>The PyPA recommended tool for installing Python packages.</description>
       <licenses>
         <license>
           <id>MIT</id>
         </license>
       </licenses>
-      <purl>pkg:pypi/pip@24.3.1</purl>
+      <purl>pkg:pypi/pip@24.0</purl>
       <externalReferences>
         <reference type="documentation">
           <url>https://pip.pypa.io</url>
@@ -511,10 +503,10 @@
     <dependency ref="lxml==5.3.2">
       <dependency ref="beautifulsoup4==4.13.3"/>
     </dependency>
-    <dependency ref="pillow==11.1.0">
+    <dependency ref="pillow==11.2.1">
       <dependency ref="typing_extensions==4.13.2"/>
     </dependency>
-    <dependency ref="pip==24.3.1"/>
+    <dependency ref="pip==24.0"/>
     <dependency ref="requests==2.32.3">
       <dependency ref="certifi==2025.1.31"/>
       <dependency ref="charset-normalizer==3.4.1"/>
@@ -525,7 +517,7 @@
       <dependency ref="MechanicalSoup==1.3.0"/>
       <dependency ref="bs4==0.0.2"/>
       <dependency ref="click==8.1.8"/>
-      <dependency ref="pillow==11.1.0"/>
+      <dependency ref="pillow==11.2.1"/>
       <dependency ref="requests==2.32.3"/>
       <dependency ref="tabulate==0.9.0"/>
     </dependency>

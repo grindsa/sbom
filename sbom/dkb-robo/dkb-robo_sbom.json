@@ -258,7 +258,7 @@
       "version": "5.3.2"
     },
     {
-      "bom-ref": "pillow==11.1.0",
+      "bom-ref": "pillow==11.2.1",
       "description": "Python Imaging Library (Fork)",
       "externalReferences": [
         {
@@ -297,25 +297,13 @@
           "url": "https://python-pillow.github.io"
         }
       ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT-CMU"
-          }
-        },
-        {
-          "license": {
-            "name": "License :: OSI Approved :: CMU License (MIT-CMU)"
-          }
-        }
-      ],
       "name": "pillow",
-      "purl": "pkg:pypi/pillow@11.1.0",
+      "purl": "pkg:pypi/pillow@11.2.1",
       "type": "library",
-      "version": "11.1.0"
+      "version": "11.2.1"
     },
     {
-      "bom-ref": "pip==24.3.1",
+      "bom-ref": "pip==24.0",
       "description": "The PyPA recommended tool for installing Python packages.",
       "externalReferences": [
         {
@@ -347,9 +335,9 @@
         }
       ],
       "name": "pip",
-      "purl": "pkg:pypi/pip@24.3.1",
+      "purl": "pkg:pypi/pip@24.0",
       "type": "library",
-      "version": "24.3.1"
+      "version": "24.0"
     },
     {
       "bom-ref": "requests==2.32.3",
@@ -549,10 +537,10 @@
       "dependsOn": [
         "typing_extensions==4.13.2"
       ],
-      "ref": "pillow==11.1.0"
+      "ref": "pillow==11.2.1"
     },
     {
-      "ref": "pip==24.3.1"
+      "ref": "pip==24.0"
     },
     {
       "dependsOn": [
@@ -568,7 +556,7 @@
         "MechanicalSoup==1.3.0",
         "bs4==0.0.2",
         "click==8.1.8",
-        "pillow==11.1.0",
+        "pillow==11.2.1",
         "requests==2.32.3",
         "tabulate==0.9.0"
       ],
@@ -612,7 +600,7 @@
       ],
       "name": "dkb_robo",
       "type": "library",
-      "version": "0.30"
+      "version": "0.30.1"
     },
     "properties": [
       {
