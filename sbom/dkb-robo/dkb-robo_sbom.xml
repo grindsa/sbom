@@ -1,15 +1,15 @@
 <?xml version="1.0" ?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.5" version="1">
+<bom xmlns="http://cyclonedx.org/schema/bom/1.6" version="1">
   <metadata>
     <tools>
       <components>
         <component type="application">
           <group>CycloneDX</group>
           <name>cyclonedx-py</name>
-          <version>5.3.0</version>
+          <version>6.1.1</version>
           <description>CycloneDX Software Bill of Materials (SBOM) generator for Python projects and environments</description>
           <licenses>
-            <license>
+            <license acknowledgement="declared">
               <id>Apache-2.0</id>
             </license>
           </licenses>
@@ -43,10 +43,10 @@
         <component type="library">
           <group>CycloneDX</group>
           <name>cyclonedx-python-lib</name>
-          <version>9.1.0</version>
+          <version>10.0.1</version>
           <description>Python library for CycloneDX</description>
           <licenses>
-            <license>
+            <license acknowledgement="declared">
               <id>Apache-2.0</id>
             </license>
           </licenses>
@@ -81,10 +81,10 @@
     </tools>
     <component type="library" bom-ref="root-component">
       <name>dkb_robo</name>
-      <version>0.30.1</version>
+      <version>0.31</version>
       <description>Download transactions from the website of Deutsche Kreditbak AG</description>
       <licenses>
-        <license>
+        <license acknowledgement="declared">
           <id>GPL-3.0-or-later</id>
         </license>
       </licenses>
@@ -109,7 +109,7 @@
       <version>1.3.0</version>
       <description>A Python library for automating interaction with websites</description>
       <licenses>
-        <license>
+        <license acknowledgement="declared">
           <id>MIT</id>
         </license>
       </licenses>
@@ -125,20 +125,20 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="beautifulsoup4==4.13.3">
+    <component type="library" bom-ref="beautifulsoup4==4.13.4">
       <name>beautifulsoup4</name>
-      <version>4.13.3</version>
+      <version>4.13.4</version>
       <description>Screen-scraping library</description>
       <licenses>
-        <license>
+        <license acknowledgement="declared">
           <id>MIT</id>
         </license>
-        <license>
+        <license acknowledgement="declared">
           <name>declared license of 'beautifulsoup4'</name>
           <text content-type="text/plain">MIT License</text>
         </license>
       </licenses>
-      <purl>pkg:pypi/beautifulsoup4@4.13.3</purl>
+      <purl>pkg:pypi/beautifulsoup4@4.13.4</purl>
       <externalReferences>
         <reference type="distribution">
           <url>https://www.crummy.com/software/BeautifulSoup/bs4/download/</url>
@@ -155,26 +155,26 @@
       <version>0.0.2</version>
       <description>Dummy package for Beautiful Soup (beautifulsoup4)</description>
       <licenses>
-        <license>
+        <license acknowledgement="declared">
           <name>declared license of 'bs4'</name>
           <text content-type="text/plain">MIT License</text>
         </license>
       </licenses>
       <purl>pkg:pypi/bs4@0.0.2</purl>
     </component>
-    <component type="library" bom-ref="certifi==2025.1.31">
+    <component type="library" bom-ref="certifi==2025.4.26">
       <name>certifi</name>
-      <version>2025.1.31</version>
+      <version>2025.4.26</version>
       <description>Python package for providing Mozilla's CA Bundle.</description>
       <licenses>
-        <license>
+        <license acknowledgement="declared">
           <id>MPL-2.0</id>
         </license>
-        <license>
+        <license acknowledgement="declared">
           <name>License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)</name>
         </license>
       </licenses>
-      <purl>pkg:pypi/certifi@2025.1.31</purl>
+      <purl>pkg:pypi/certifi@2025.4.26</purl>
       <externalReferences>
         <reference type="other">
           <url>https://github.com/certifi/python-certifi</url>
@@ -186,16 +186,16 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="charset-normalizer==3.4.1">
+    <component type="library" bom-ref="charset-normalizer==3.4.2">
       <name>charset-normalizer</name>
-      <version>3.4.1</version>
+      <version>3.4.2</version>
       <description>The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.</description>
       <licenses>
-        <license>
+        <license acknowledgement="declared">
           <id>MIT</id>
         </license>
       </licenses>
-      <purl>pkg:pypi/charset-normalizer@3.4.1</purl>
+      <purl>pkg:pypi/charset-normalizer@3.4.2</purl>
       <externalReferences>
         <reference type="documentation">
           <url>https://charset-normalizer.readthedocs.io/</url>
@@ -215,16 +215,11 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="click==8.1.8">
+    <component type="library" bom-ref="click==8.2.0">
       <name>click</name>
-      <version>8.1.8</version>
+      <version>8.2.0</version>
       <description>Composable command line interface toolkit</description>
-      <licenses>
-        <license>
-          <name>License :: OSI Approved :: BSD License</name>
-        </license>
-      </licenses>
-      <purl>pkg:pypi/click@8.1.8</purl>
+      <purl>pkg:pypi/click@8.2.0</purl>
       <externalReferences>
         <reference type="chat">
           <url>https://discord.gg/pallets</url>
@@ -253,7 +248,7 @@
       <version>3.10</version>
       <description>Internationalized Domain Names in Applications (IDNA)</description>
       <licenses>
-        <license>
+        <license acknowledgement="declared">
           <name>License :: OSI Approved :: BSD License</name>
         </license>
       </licenses>
@@ -273,19 +268,19 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="lxml==5.3.2">
+    <component type="library" bom-ref="lxml==5.4.0">
       <name>lxml</name>
-      <version>5.3.2</version>
+      <version>5.4.0</version>
       <description>Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.</description>
       <licenses>
-        <license>
+        <license acknowledgement="declared">
           <id>BSD-3-Clause</id>
         </license>
-        <license>
+        <license acknowledgement="declared">
           <name>License :: OSI Approved :: BSD License</name>
         </license>
       </licenses>
-      <purl>pkg:pypi/lxml@5.3.2</purl>
+      <purl>pkg:pypi/lxml@5.4.0</purl>
       <externalReferences>
         <reference type="other">
           <url>https://github.com/lxml/lxml</url>
@@ -338,7 +333,7 @@
       <version>24.0</version>
       <description>The PyPA recommended tool for installing Python packages.</description>
       <licenses>
-        <license>
+        <license acknowledgement="declared">
           <id>MIT</id>
         </license>
       </licenses>
@@ -367,10 +362,10 @@
       <version>2.32.3</version>
       <description>Python HTTP for Humans.</description>
       <licenses>
-        <license>
+        <license acknowledgement="declared">
           <id>Apache-2.0</id>
         </license>
-        <license>
+        <license acknowledgement="declared">
           <name>License :: OSI Approved :: Apache Software License</name>
         </license>
       </licenses>
@@ -390,16 +385,16 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="soupsieve==2.6">
+    <component type="library" bom-ref="soupsieve==2.7">
       <name>soupsieve</name>
-      <version>2.6</version>
+      <version>2.7</version>
       <description>A modern CSS selector implementation for Beautiful Soup.</description>
       <licenses>
-        <license>
+        <license acknowledgement="declared">
           <id>MIT</id>
         </license>
       </licenses>
-      <purl>pkg:pypi/soupsieve@2.6</purl>
+      <purl>pkg:pypi/soupsieve@2.7</purl>
       <externalReferences>
         <reference type="website">
           <url>https://github.com/facelessuser/soupsieve</url>
@@ -412,7 +407,7 @@
       <version>0.9.0</version>
       <description>Pretty-print tabular data</description>
       <licenses>
-        <license>
+        <license acknowledgement="declared">
           <id>MIT</id>
         </license>
       </licenses>
@@ -483,45 +478,45 @@
   </components>
   <dependencies>
     <dependency ref="MechanicalSoup==1.3.0">
-      <dependency ref="beautifulsoup4==4.13.3"/>
-      <dependency ref="lxml==5.3.2"/>
+      <dependency ref="beautifulsoup4==4.13.4"/>
+      <dependency ref="lxml==5.4.0"/>
       <dependency ref="requests==2.32.3"/>
     </dependency>
-    <dependency ref="beautifulsoup4==4.13.3">
-      <dependency ref="charset-normalizer==3.4.1"/>
-      <dependency ref="lxml==5.3.2"/>
-      <dependency ref="soupsieve==2.6"/>
+    <dependency ref="beautifulsoup4==4.13.4">
+      <dependency ref="charset-normalizer==3.4.2"/>
+      <dependency ref="lxml==5.4.0"/>
+      <dependency ref="soupsieve==2.7"/>
       <dependency ref="typing_extensions==4.13.2"/>
     </dependency>
     <dependency ref="bs4==0.0.2">
-      <dependency ref="beautifulsoup4==4.13.3"/>
+      <dependency ref="beautifulsoup4==4.13.4"/>
     </dependency>
-    <dependency ref="certifi==2025.1.31"/>
-    <dependency ref="charset-normalizer==3.4.1"/>
-    <dependency ref="click==8.1.8"/>
+    <dependency ref="certifi==2025.4.26"/>
+    <dependency ref="charset-normalizer==3.4.2"/>
+    <dependency ref="click==8.2.0"/>
     <dependency ref="idna==3.10"/>
-    <dependency ref="lxml==5.3.2">
-      <dependency ref="beautifulsoup4==4.13.3"/>
+    <dependency ref="lxml==5.4.0">
+      <dependency ref="beautifulsoup4==4.13.4"/>
     </dependency>
     <dependency ref="pillow==11.2.1">
       <dependency ref="typing_extensions==4.13.2"/>
     </dependency>
     <dependency ref="pip==24.0"/>
     <dependency ref="requests==2.32.3">
-      <dependency ref="certifi==2025.1.31"/>
-      <dependency ref="charset-normalizer==3.4.1"/>
+      <dependency ref="certifi==2025.4.26"/>
+      <dependency ref="charset-normalizer==3.4.2"/>
       <dependency ref="idna==3.10"/>
       <dependency ref="urllib3==2.4.0"/>
     </dependency>
     <dependency ref="root-component">
       <dependency ref="MechanicalSoup==1.3.0"/>
       <dependency ref="bs4==0.0.2"/>
-      <dependency ref="click==8.1.8"/>
+      <dependency ref="click==8.2.0"/>
       <dependency ref="pillow==11.2.1"/>
       <dependency ref="requests==2.32.3"/>
       <dependency ref="tabulate==0.9.0"/>
     </dependency>
-    <dependency ref="soupsieve==2.6"/>
+    <dependency ref="soupsieve==2.7"/>
     <dependency ref="tabulate==0.9.0"/>
     <dependency ref="typing_extensions==4.13.2"/>
     <dependency ref="urllib3==2.4.0"/>

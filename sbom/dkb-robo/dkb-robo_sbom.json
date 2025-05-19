@@ -18,6 +18,7 @@
       "licenses": [
         {
           "license": {
+            "acknowledgement": "declared",
             "id": "MIT"
           }
         }
@@ -28,7 +29,7 @@
       "version": "1.3.0"
     },
     {
-      "bom-ref": "beautifulsoup4==4.13.3",
+      "bom-ref": "beautifulsoup4==4.13.4",
       "description": "Screen-scraping library",
       "externalReferences": [
         {
@@ -45,11 +46,13 @@
       "licenses": [
         {
           "license": {
+            "acknowledgement": "declared",
             "id": "MIT"
           }
         },
         {
           "license": {
+            "acknowledgement": "declared",
             "name": "declared license of 'beautifulsoup4'",
             "text": {
               "content": "MIT License",
@@ -59,9 +62,9 @@
         }
       ],
       "name": "beautifulsoup4",
-      "purl": "pkg:pypi/beautifulsoup4@4.13.3",
+      "purl": "pkg:pypi/beautifulsoup4@4.13.4",
       "type": "library",
-      "version": "4.13.3"
+      "version": "4.13.4"
     },
     {
       "bom-ref": "bs4==0.0.2",
@@ -69,6 +72,7 @@
       "licenses": [
         {
           "license": {
+            "acknowledgement": "declared",
             "name": "declared license of 'bs4'",
             "text": {
               "content": "MIT License",
@@ -83,7 +87,7 @@
       "version": "0.0.2"
     },
     {
-      "bom-ref": "certifi==2025.1.31",
+      "bom-ref": "certifi==2025.4.26",
       "description": "Python package for providing Mozilla's CA Bundle.",
       "externalReferences": [
         {
@@ -100,22 +104,24 @@
       "licenses": [
         {
           "license": {
+            "acknowledgement": "declared",
             "id": "MPL-2.0"
           }
         },
         {
           "license": {
+            "acknowledgement": "declared",
             "name": "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)"
           }
         }
       ],
       "name": "certifi",
-      "purl": "pkg:pypi/certifi@2025.1.31",
+      "purl": "pkg:pypi/certifi@2025.4.26",
       "type": "library",
-      "version": "2025.1.31"
+      "version": "2025.4.26"
     },
     {
-      "bom-ref": "charset-normalizer==3.4.1",
+      "bom-ref": "charset-normalizer==3.4.2",
       "description": "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.",
       "externalReferences": [
         {
@@ -142,17 +148,18 @@
       "licenses": [
         {
           "license": {
+            "acknowledgement": "declared",
             "id": "MIT"
           }
         }
       ],
       "name": "charset-normalizer",
-      "purl": "pkg:pypi/charset-normalizer@3.4.1",
+      "purl": "pkg:pypi/charset-normalizer@3.4.2",
       "type": "library",
-      "version": "3.4.1"
+      "version": "3.4.2"
     },
     {
-      "bom-ref": "click==8.1.8",
+      "bom-ref": "click==8.2.0",
       "description": "Composable command line interface toolkit",
       "externalReferences": [
         {
@@ -181,17 +188,10 @@
           "url": "https://click.palletsprojects.com/changes/"
         }
       ],
-      "licenses": [
-        {
-          "license": {
-            "name": "License :: OSI Approved :: BSD License"
-          }
-        }
-      ],
       "name": "click",
-      "purl": "pkg:pypi/click@8.1.8",
+      "purl": "pkg:pypi/click@8.2.0",
       "type": "library",
-      "version": "8.1.8"
+      "version": "8.2.0"
     },
     {
       "bom-ref": "idna==3.10",
@@ -216,6 +216,7 @@
       "licenses": [
         {
           "license": {
+            "acknowledgement": "declared",
             "name": "License :: OSI Approved :: BSD License"
           }
         }
@@ -226,7 +227,7 @@
       "version": "3.10"
     },
     {
-      "bom-ref": "lxml==5.3.2",
+      "bom-ref": "lxml==5.4.0",
       "description": "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.",
       "externalReferences": [
         {
@@ -243,19 +244,21 @@
       "licenses": [
         {
           "license": {
+            "acknowledgement": "declared",
             "id": "BSD-3-Clause"
           }
         },
         {
           "license": {
+            "acknowledgement": "declared",
             "name": "License :: OSI Approved :: BSD License"
           }
         }
       ],
       "name": "lxml",
-      "purl": "pkg:pypi/lxml@5.3.2",
+      "purl": "pkg:pypi/lxml@5.4.0",
       "type": "library",
-      "version": "5.3.2"
+      "version": "5.4.0"
     },
     {
       "bom-ref": "pillow==11.2.1",
@@ -330,6 +333,7 @@
       "licenses": [
         {
           "license": {
+            "acknowledgement": "declared",
             "id": "MIT"
           }
         }
@@ -362,11 +366,13 @@
       "licenses": [
         {
           "license": {
+            "acknowledgement": "declared",
             "id": "Apache-2.0"
           }
         },
         {
           "license": {
+            "acknowledgement": "declared",
             "name": "License :: OSI Approved :: Apache Software License"
           }
         }
@@ -377,7 +383,7 @@
       "version": "2.32.3"
     },
     {
-      "bom-ref": "soupsieve==2.6",
+      "bom-ref": "soupsieve==2.7",
       "description": "A modern CSS selector implementation for Beautiful Soup.",
       "externalReferences": [
         {
@@ -389,14 +395,15 @@
       "licenses": [
         {
           "license": {
+            "acknowledgement": "declared",
             "id": "MIT"
           }
         }
       ],
       "name": "soupsieve",
-      "purl": "pkg:pypi/soupsieve@2.6",
+      "purl": "pkg:pypi/soupsieve@2.7",
       "type": "library",
-      "version": "2.6"
+      "version": "2.7"
     },
     {
       "bom-ref": "tabulate==0.9.0",
@@ -411,6 +418,7 @@
       "licenses": [
         {
           "license": {
+            "acknowledgement": "declared",
             "id": "MIT"
           }
         }
@@ -494,44 +502,44 @@
   "dependencies": [
     {
       "dependsOn": [
-        "beautifulsoup4==4.13.3",
-        "lxml==5.3.2",
+        "beautifulsoup4==4.13.4",
+        "lxml==5.4.0",
         "requests==2.32.3"
       ],
       "ref": "MechanicalSoup==1.3.0"
     },
     {
       "dependsOn": [
-        "charset-normalizer==3.4.1",
-        "lxml==5.3.2",
-        "soupsieve==2.6",
+        "charset-normalizer==3.4.2",
+        "lxml==5.4.0",
+        "soupsieve==2.7",
         "typing_extensions==4.13.2"
       ],
-      "ref": "beautifulsoup4==4.13.3"
+      "ref": "beautifulsoup4==4.13.4"
     },
     {
       "dependsOn": [
-        "beautifulsoup4==4.13.3"
+        "beautifulsoup4==4.13.4"
       ],
       "ref": "bs4==0.0.2"
     },
     {
-      "ref": "certifi==2025.1.31"
+      "ref": "certifi==2025.4.26"
     },
     {
-      "ref": "charset-normalizer==3.4.1"
+      "ref": "charset-normalizer==3.4.2"
     },
     {
-      "ref": "click==8.1.8"
+      "ref": "click==8.2.0"
     },
     {
       "ref": "idna==3.10"
     },
     {
       "dependsOn": [
-        "beautifulsoup4==4.13.3"
+        "beautifulsoup4==4.13.4"
       ],
-      "ref": "lxml==5.3.2"
+      "ref": "lxml==5.4.0"
     },
     {
       "dependsOn": [
@@ -544,8 +552,8 @@
     },
     {
       "dependsOn": [
-        "certifi==2025.1.31",
-        "charset-normalizer==3.4.1",
+        "certifi==2025.4.26",
+        "charset-normalizer==3.4.2",
         "idna==3.10",
         "urllib3==2.4.0"
       ],
@@ -555,7 +563,7 @@
       "dependsOn": [
         "MechanicalSoup==1.3.0",
         "bs4==0.0.2",
-        "click==8.1.8",
+        "click==8.2.0",
         "pillow==11.2.1",
         "requests==2.32.3",
         "tabulate==0.9.0"
@@ -563,7 +571,7 @@
       "ref": "root-component"
     },
     {
-      "ref": "soupsieve==2.6"
+      "ref": "soupsieve==2.7"
     },
     {
       "ref": "tabulate==0.9.0"
@@ -594,13 +602,14 @@
       "licenses": [
         {
           "license": {
+            "acknowledgement": "declared",
             "id": "GPL-3.0-or-later"
           }
         }
       ],
       "name": "dkb_robo",
       "type": "library",
-      "version": "0.30.1"
+      "version": "0.31"
     },
     "properties": [
       {
@@ -650,13 +659,14 @@
           "licenses": [
             {
               "license": {
+                "acknowledgement": "declared",
                 "id": "Apache-2.0"
               }
             }
           ],
           "name": "cyclonedx-py",
           "type": "application",
-          "version": "5.3.0"
+          "version": "6.1.1"
         },
         {
           "description": "Python library for CycloneDX",
@@ -698,19 +708,20 @@
           "licenses": [
             {
               "license": {
+                "acknowledgement": "declared",
                 "id": "Apache-2.0"
               }
             }
           ],
           "name": "cyclonedx-python-lib",
           "type": "library",
-          "version": "9.1.0"
+          "version": "10.0.1"
         }
       ]
     }
   },
   "version": 1,
-  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
-  "specVersion": "1.5"
+  "specVersion": "1.6"
 }
