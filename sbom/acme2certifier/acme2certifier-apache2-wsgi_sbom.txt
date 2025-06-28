@@ -168,7 +168,7 @@ python3                  3.12.3-0ubuntu2                    deb
 python3-decorator        5.1.1-5                            deb       
 python3-gssapi           1.8.2-1ubuntu1                     deb       
 python3-minimal          3.12.3-0ubuntu2                    deb       
-python3-pip              24.0+dfsg-1ubuntu1.1               deb       
+python3-pip              24.0+dfsg-1ubuntu1.2               deb       
 python3-pkg-resources    68.1.2-2ubuntu1.2                  deb       
 python3-setuptools       68.1.2-2ubuntu1.2                  deb       
 python3-wheel            0.42.0-2                           deb       
