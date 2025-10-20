@@ -14,7 +14,7 @@ ca-certificates          20240203                           deb
 certifi                  2025.10.5                          python  
 certsrv                  2.1.1                              python  
 cffi                     2.0.0                              python  
-charset-normalizer       3.4.3                              python  
+charset-normalizer       3.4.4                              python  
 click                    8.3.0                              python  
 configparser             7.2.0                              python  
 coreutils                9.4-3ubuntu6.1                     deb     
@@ -36,7 +36,7 @@ grep                     3.11-4build1                       deb
 gssapi                   1.8.2                              python  
 gzip                     1.12-1ubuntu3.1                    deb     
 hostname                 3.23+nmu2ubuntu2                   deb     
-idna                     3.10                               python  
+idna                     3.11                               python  
 impacket                 0.12.0                             python  
 init-system-helpers      1.66ubuntu1                        deb     
 itsdangerous             2.2.0                              python  
@@ -178,7 +178,7 @@ pytz                     2025.2                             python
 pyyaml                   6.0.3                              python  
 readline-common          8.2-4build1                        deb     
 requests                 2.32.5                             python  
-requests-gssapi          1.3.0                              python  
+requests-gssapi          1.4.0                              python  
 requests-ntlm            1.3.0                              python  
 requests-pkcs12          1.27                               python  
 sed                      4.9-2build1                        deb     
