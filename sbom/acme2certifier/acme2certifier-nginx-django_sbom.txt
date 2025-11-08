@@ -174,7 +174,7 @@ python-dateutil            2.9.0.post0                        python
 python3                    3.12.3-0ubuntu2                    deb     
 python3-asgiref            3.7.2-1                            deb     
 python3-decorator          5.1.1-5                            deb     
-python3-django             3:4.2.11-1ubuntu1.11               deb     
+python3-django             3:4.2.11-1ubuntu1.12               deb     
 python3-gssapi             1.8.2-1ubuntu1                     deb     
 python3-minimal            3.12.3-0ubuntu2                    deb     
 python3-mysqldb            1.4.6-2build3                      deb     
