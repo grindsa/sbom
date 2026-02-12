@@ -1,5 +1,5 @@
 NAME                   VERSION                            TYPE    
-acme                   5.3.0                              python  
+acme                   5.3.1                              python  
 apt                    2.8.3                              deb     
 base-files             13ubuntu10.3                       deb     
 base-passwd            3.6.3build1                        deb     
@@ -14,7 +14,7 @@ charset-normalizer     3.4.4                              python
 click                  8.3.1                              python  
 configparser           7.2.0                              python  
 coreutils              9.4-3ubuntu6.1                     deb     
-cryptography           46.0.4                             python  
+cryptography           46.0.5                             python  
 curl                   8.5.0-2ubuntu10.6                  deb     
 dash                   0.5.12-6ubuntu5                    deb     
 debconf                1.5.86ubuntu1                      deb     
