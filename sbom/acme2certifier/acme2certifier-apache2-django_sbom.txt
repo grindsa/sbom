@@ -15,7 +15,7 @@ ca-certificates          20240203                           deb
 certifi                  2026.2.25                          python  
 certsrv                  2.1.1                              python  
 cffi                     2.0.0                              python  
-charset-normalizer       3.4.4                              python  
+charset-normalizer       3.4.5                              python  
 click                    8.3.1                              python  
 configparser             7.2.0                              python  
 coreutils                9.4-3ubuntu6.1                     deb     
@@ -112,7 +112,7 @@ libpam-runtime           1.5.3-5ubuntu5.5                   deb
 libpam0g                 1.5.3-5ubuntu5.5                   deb     
 libpcre2-8-0             10.42-4ubuntu2.1                   deb     
 libperl5.38t64           5.38.2-3.2ubuntu0.2                deb     
-libpq5                   16.11-0ubuntu0.24.04.1             deb     
+libpq5                   16.13-0ubuntu0.24.04.1             deb     
 libproc2-0               2:4.0.4-4ubuntu3.2                 deb     
 libpsl5t64               0.21.2-1.1build1                   deb     
 libpython3-stdlib        3.12.3-0ubuntu2.1                  deb     
@@ -171,7 +171,7 @@ pymysql                  1.0.2                              python
 pyopenssl                25.3.0                             python  
 pyrfc3339                2.1.0                              python  
 pysocks                  1.7.1                              python  
-pyspnego                 0.12.0                             python  
+pyspnego                 0.12.1                             python  
 python-dateutil          2.9.0.post0                        python  
 python3                  3.12.3-0ubuntu2.1                  deb     
 python3-asgiref          3.7.2-1                            deb     
@@ -190,7 +190,7 @@ python3-wheel            0.42.0-2                           deb
 python3-yaml             6.0.1-2build2                      deb     
 python3.12               3.12.3-1ubuntu0.11                 deb     
 python3.12-minimal       3.12.3-1ubuntu0.11                 deb     
-pytz                     2025.2                             python  
+pytz                     2026.1.post1                       python  
 pyyaml                   6.0.1                              python  
 readline-common          8.2-4build1                        deb     
 requests                 2.32.5                             python  
