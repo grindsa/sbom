@@ -36,7 +36,7 @@ grep                     3.11-4build1                       deb
 gssapi                   1.8.2                              python  
 gzip                     1.12-1ubuntu3.1                    deb     
 hostname                 3.23+nmu2ubuntu2                   deb     
-idna                     3.16                               python  
+idna                     3.17                               python  
 impacket                 0.13.1                             python  
 init-system-helpers      1.66ubuntu1                        deb     
 itsdangerous             2.2.0                              python  
