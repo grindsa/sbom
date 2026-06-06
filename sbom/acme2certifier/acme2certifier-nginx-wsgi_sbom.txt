@@ -7,11 +7,11 @@ bash                   5.2.21-2ubuntu4                    deb
 blinker                1.9.0                              python  
 bsdutils               1:2.39.3-9ubuntu6.5                deb     
 ca-certificates        20240203                           deb     
-certifi                2026.4.22                          python  
+certifi                2026.5.20                          python  
 certsrv                2.1.1                              python  
 cffi                   2.0.0                              python  
 charset-normalizer     3.4.7                              python  
-click                  8.4.0                              python  
+click                  8.4.1                              python  
 configparser           7.2.0                              python  
 coreutils              9.4-3ubuntu6.2                     deb     
 cryptography           47.0.0                             python  
@@ -22,7 +22,7 @@ debianutils            5.17build1                         deb
 decorator              5.1.1                              python  
 diffutils              1:3.10-1build1                     deb     
 dnspython              2.8.0                              python  
-dpkg                   1.22.6ubuntu6.5                    deb     
+dpkg                   1.22.6ubuntu6.6                    deb     
 e2fsprogs              1.47.0-2.4~exp1ubuntu4.1           deb     
 findutils              4.9.0-5build1                      deb     
 flask                  3.1.3                              python  
@@ -32,8 +32,8 @@ grep                   3.11-4build1                       deb
 gssapi                 1.8.2                              python  
 gzip                   1.12-1ubuntu3.1                    deb     
 hostname               3.23+nmu2ubuntu2                   deb     
-idna                   3.15                               python  
-impacket               0.13.0                             python  
+idna                   3.18                               python  
+impacket               0.13.1                             python  
 init-system-helpers    1.66ubuntu1                        deb     
 iproute2               6.1.0-1ubuntu6.3                   deb     
 itsdangerous           2.2.0                              python  
@@ -147,8 +147,8 @@ mount                  2.39.3-9ubuntu6.5                  deb
 ncurses-base           6.4+20240113-1ubuntu2              deb     
 ncurses-bin            6.4+20240113-1ubuntu2              deb     
 netbase                6.4                                deb     
-nginx                  1.24.0-2ubuntu7.8                  deb     
-nginx-common           1.24.0-2ubuntu7.8                  deb     
+nginx                  1.24.0-2ubuntu7.9                  deb     
+nginx-common           1.24.0-2ubuntu7.9                  deb     
 openssl                3.0.13-0ubuntu3.9                  deb     
 passwd                 1:4.13+dfsg1-4ubuntu3.2            deb     
 perl-base              5.38.2-3.2ubuntu0.2                deb     
@@ -180,7 +180,7 @@ requests               2.34.2                             python
 requests-gssapi        1.4.0                              python  
 requests-ntlm          1.3.0                              python  
 requests-pkcs12        1.27                               python  
-sed                    4.9-2build1                        deb     
+sed                    4.9-2ubuntu0.24.04.1               deb     
 sensible-utils         0.0.22                             deb     
 setuptools             68.1.2                             python  
 six                    1.17.0                             python  
