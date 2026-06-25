@@ -1,6 +1,6 @@
 NAME                           VERSION                                TYPE                       
 acme                           4.0.0                                  python                     
-acme2certifier                 0.43-1                                 deb                        
+acme2certifier                 0.43.1-1                               deb                        
 apache2                        2.4.66-2ubuntu2.2                      deb                        
 apache2-bin                    2.4.66-2ubuntu2.2                      deb                        
 apache2-data                   2.4.66-2ubuntu2.2                      deb                        
