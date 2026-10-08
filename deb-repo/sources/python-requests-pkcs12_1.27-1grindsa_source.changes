@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Wed, 08 Oct 2026 05:30:00 +0000
+Source: python-requests-pkcs12
+Built-For-Profiles: noudeb
+Architecture: source
+Version: 1.27-1grindsa
+Distribution: resolute
+Urgency: medium
+Maintainer: GrindSa <grindelsack@gmail.com>
+Changed-By: GrindSa <grindelsack@gmail.com>
+Changes:
+ python-requests-pkcs12 (1.27-1grindsa) resolute; urgency=medium
+ .
+   * Initial grindsa packaging of upstream 1.27 for Ubuntu.
+   * Not available in Ubuntu archives.
+Checksums-Sha1:
+ 68ecaf6fbf805b4eb73621b130968f1e2d31f161 1085 python-requests-pkcs12_1.27-1grindsa.dsc
+ b3b7f3eb296457270e27401c93fbc8ac28bd5315 5492 python-requests-pkcs12_1.27.orig.tar.gz
+ d7030609199edf4c8eab34c8e17629fe11742316 1640 python-requests-pkcs12_1.27-1grindsa.debian.tar.xz
+ 23027952f9e5524ec7ff592db370f950df085c61 6309 python-requests-pkcs12_1.27-1grindsa_source.buildinfo
+Checksums-Sha256:
+ c52ae129a699b1ddae3c2a4ebb413f1d5ca79ced45dc450fb1a71e04abee908f 1085 python-requests-pkcs12_1.27-1grindsa.dsc
+ 258b320bac8773b5c310a92382e3cb3b1fece1d5cc4fd4a6f93a70b009154ea5 5492 python-requests-pkcs12_1.27.orig.tar.gz
+ 9c93a758437912a495c9f49ddcea773b0f87224c2e3cdfd4fb71bbd758a7aad6 1640 python-requests-pkcs12_1.27-1grindsa.debian.tar.xz
+ 1d1dcba2e06813108b223e1e7541e71b011f64109e5ad96c1f6433cf9b35d1bd 6309 python-requests-pkcs12_1.27-1grindsa_source.buildinfo
+Files:
+ e54fe5d9cfac7a5310e03d386f3e75b0 1085 python optional python-requests-pkcs12_1.27-1grindsa.dsc
+ 8f9be161df1127bf4d61f194f4830bb6 5492 python optional python-requests-pkcs12_1.27.orig.tar.gz
+ 9c0c1977190e1a5165dabfbd6dba592b 1640 python optional python-requests-pkcs12_1.27-1grindsa.debian.tar.xz
+ bace9f922bd861f4d8d71b0d9fe07726 6309 python optional python-requests-pkcs12_1.27-1grindsa_source.buildinfo

@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 08 Oct 2026 05:00:00 +0000
+Source: python-requests-gssapi
+Built-For-Profiles: noudeb
+Architecture: source
+Version: 1.4.0-1grindsa
+Distribution: noble
+Urgency: medium
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Changed-By: GrindSa <grindelsack@gmail.com>
+Changes:
+ python-requests-gssapi (1.4.0-1grindsa) noble; urgency=medium
+ .
+   * New upstream version 1.4.0.
+   * Rebuild with grindsa suffix for local sbom repo.
+   * Add pybuild-plugin-pyproject Build-Depends for src-layout pyproject builds.
+   * Patch: relax setuptools SPDX requirement for Ubuntu 24.04 (noble).
+Checksums-Sha1:
+ 73b77c3d916f02b4ddad3c41dd9d27145587f9b0 1181 python-requests-gssapi_1.4.0-1grindsa.dsc
+ de3d140a7ddca9c293dc3cf1e9f793acd12b7e49 17507 python-requests-gssapi_1.4.0.orig.tar.gz
+ 55dc2f2d7366263b6e139652250156750eb1a392 2532 python-requests-gssapi_1.4.0-1grindsa.debian.tar.xz
+ cace6aa2bd29551c16dff8f11b8aaf1b8c576a03 6613 python-requests-gssapi_1.4.0-1grindsa_source.buildinfo
+Checksums-Sha256:
+ 85579d9e0d601e714ca451e5ca6d574cf997c8672d17f18bd2d91a5a521b5c4a 1181 python-requests-gssapi_1.4.0-1grindsa.dsc
+ e4d3f5ad36d309239e2e7659e55f208981b97ee6da2433f69749fd71bcb16a16 17507 python-requests-gssapi_1.4.0.orig.tar.gz
+ 8c036b5397d9450aa63f8c7f90464c653e99de5f4d03a38a116574c69c588b77 2532 python-requests-gssapi_1.4.0-1grindsa.debian.tar.xz
+ 6d89526db4d9b181e170fb988f66308e904559b7dfe4d1b1cc13a496d4f404bc 6613 python-requests-gssapi_1.4.0-1grindsa_source.buildinfo
+Files:
+ a2eadbe98cb70ff501bd98aa168a8050 1181 python optional python-requests-gssapi_1.4.0-1grindsa.dsc
+ 011e2036a870a12957cfd0de6ad02fee 17507 python optional python-requests-gssapi_1.4.0.orig.tar.gz
+ ae197a960567ca0d069b4508b35c53c7 2532 python optional python-requests-gssapi_1.4.0-1grindsa.debian.tar.xz
+ 5f13bb0d2e7f34fe073eec95ba6369bf 6613 python optional python-requests-gssapi_1.4.0-1grindsa_source.buildinfo

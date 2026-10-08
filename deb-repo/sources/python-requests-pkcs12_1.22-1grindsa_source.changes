@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Wed, 08 Oct 2026 05:30:00 +0000
+Source: python-requests-pkcs12
+Built-For-Profiles: noudeb
+Architecture: source
+Version: 1.22-1grindsa
+Distribution: noble
+Urgency: medium
+Maintainer: GrindSa <grindelsack@gmail.com>
+Changed-By: GrindSa <grindelsack@gmail.com>
+Changes:
+ python-requests-pkcs12 (1.22-1grindsa) noble; urgency=medium
+ .
+   * Initial grindsa packaging of upstream 1.22 for Ubuntu.
+   * Not available in Ubuntu archives.
+Checksums-Sha1:
+ 9f86c5b2d79a57a7efc4c76d7bc9270826416d69 1085 python-requests-pkcs12_1.22-1grindsa.dsc
+ 6a150926b00ef6c422f852b9885a836eda083484 5304 python-requests-pkcs12_1.22.orig.tar.gz
+ 62220a09276f7f39b240b0b54b060b66d2e246c5 1640 python-requests-pkcs12_1.22-1grindsa.debian.tar.xz
+ 6f315af04198ad3fde1e2a7f203a6fd23419ba21 6309 python-requests-pkcs12_1.22-1grindsa_source.buildinfo
+Checksums-Sha256:
+ 96f094423945ba2fd921749d649b588256c89ec1d444a2ec7e4a3338a79cd41c 1085 python-requests-pkcs12_1.22-1grindsa.dsc
+ e33f6479c84fbe664917feeb37c9949691f3cee1783ffa0580c1f494541707f5 5304 python-requests-pkcs12_1.22.orig.tar.gz
+ 27caa4871d6c20303204408c8cd2413a8c891a22e11102b27f3a856300e967db 1640 python-requests-pkcs12_1.22-1grindsa.debian.tar.xz
+ c63166140d1a8e6617533156e40fe285b6ef0a513a410bdd4e80fcd5983efd68 6309 python-requests-pkcs12_1.22-1grindsa_source.buildinfo
+Files:
+ 7dcbdbc0752472953c3bae68124e2b93 1085 python optional python-requests-pkcs12_1.22-1grindsa.dsc
+ 7041fc5799c6662bfa8c4b0ca293d3ae 5304 python optional python-requests-pkcs12_1.22.orig.tar.gz
+ f00733dc086d17aa1a7ebac856c7dad0 1640 python optional python-requests-pkcs12_1.22-1grindsa.debian.tar.xz
+ 4699c6dcc1c4237928e8c246bd697989 6309 python optional python-requests-pkcs12_1.22-1grindsa_source.buildinfo
